@@ -1,7 +1,7 @@
 
-<img src="assets/readmeimages/logo.png">
+<img src="assets/readmeimages/logo.png" width="300px">
 
-# Project Name Here
+# The Breast Review
 Hackathon Project in partnership with IT Labs. Deadline Monday 15th November 2022 @ 3pm.
 
 ## Contents
@@ -61,8 +61,15 @@ Project Facilitator: Elvira Shorko
 
 ## UX
 ### Strategy
+
+
 #### Vision
-<img src="assets/readmeimages/pageplan.png">
+<em>The Breast Review</em> is an educational tool to increase the knowledge and awareness surrounding Breast Cancer. It will consist of a number of separate pages pertaining to different areas of breast cancer awareness such as the risks, the symptoms and some interesting facts. There will also be an interactive quiz for visitors to the website to encourage the cementing of knowledge through an activity. On the home page there will be a video showing how to check for breast cancer and real life stories of journey's from people who have been affected by breast cancer - both men and women.
+
+Despite breast cancer being one of the most well researched and known-about cancers, there are still a massive amount of breast cancer related deaths that could have been prevented if it were for early detection and education. Our hope for this website is to have a quick, easy and informative resource for anybody who would like to learn more about how to detect breast cancers.
+
+The graphic below shows all of the potential pages and the content within that we could add to this website, some of these will be added and some won't - this will be talked about more in-depth in the FEasibility/Importance section of the README.
+<img src="assets/readmeimages/pageplan.png" width="600px">
 
 #### Aims
 #### Target Audience
@@ -104,10 +111,11 @@ The table above has been plotted into a graph (below) to easily visualise the fe
 ### Structure
 
 ### Skeleton
-<img src="assets/readmeimages/indexhtml.png">
-<img src="assets/readmeimages/factshtml.png">
-<img src="assets/readmeimages/riskshtml.png">
-<img src="assets/readmeimages/symptomshtml.png">
+<img src="assets/readmeimages/wireframeindex.png" width="700px">
+<img src="assets/readmeimages/wireframefacts.png" width="700px">
+<img src="assets/readmeimages/wireframerisks.png" width="700px">
+<img src="assets/readmeimages/wireframesymptoms.png" width="700px">
+<img src="assets/readmeimages/wireframequiz.png" width="700px">
 
 ### Surface
 #### Typography
