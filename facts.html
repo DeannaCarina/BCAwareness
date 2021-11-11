@@ -1,28 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Breast Cancer Awareness Hackathon Project">
     <meta name="keywords" content="Breast cancer facts, breast cancer myths, breast, cancer, hackathon">
-    <link rel='shortcut icon' type='image/x-icon' href='assets/images/favicon.png'/>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/images/favicon.png' />
     <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Title TBC</title>
 </head>
+
 <body>
     <header>
-        <nav>
-
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50px"
+                        width="60px"> The Breast Review</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="facts.html">Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="risks.html">Risks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="symptoms.html">Symptoms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
+        <div id="facts_accordion">
+            <h2>8 Interesting Facts about Breast Cancer</h2>
+            <button class="accordion">Pets can get breast cancer too</button>
+            <div class="panel">
+                <p>Breast cancer occurs in both dogs and cats; it tends to be far more aggressive in cats. It is not
+                    only humans who suffer from breast cancer, some animals do too. It is more common in dogs than cats,
+                    but tends to be more aggressive in cats than dogs.</p>
+            </div>
+
+            <button class="accordion">Wasp dung was used as a treatment for breast cancer</button>
+            <div class="panel">
+                <p>Insect faeces featured heavily in ancient remedies for breast cancer. An Egyptian papyrus recommended
+                    a mixture of cow’s brain and wasp dung to be applied to breast tumours for four days. Insect faeces
+                    were still considered one of the most advanced treatments for breast cancer up until the Middle
+                    Ages. Thankfully, treatments have advanced a great deal since then.</p>
+            </div>
+
+            <button class="accordion">Breast cancer has been called the “nun’s disease”</button>
+            <div class="panel">
+                <p>Lifelong nuns, like all women who never have children, are at an increased risk of dying from breast,
+                    ovarian and uterine cancers, compared with mothers. A woman's risk of getting these cancers
+                    increases with the number of menstrual cycles she experiences.</p>
+            </div>
+
+            <button class="accordion">The first record of a mastectomy for breast cancer</button>
+            <div class="panel">
+                <p>The first record of a breast mastectomy was in A.D. 548 on Theodora, Empress of Byzantine.
+                    Significant progress in our understanding and treatment of breast cancer in recent decades has seen
+                    a dramatic reduction in the use of ‘radical’ mastectomy (where the breast, underlying chest muscle
+                    and lymph nodes are removed), which was the standard surgical approach to breast cancer right up
+                    until the 1960s. </p>
+            </div>
+
+            <button class="accordion">Men get breast cancer too.</button>
+            <div class="panel">
+                <p>A man’s lifetime risk of breast cancer is about 1 in 1,000. Many people do not realise that men have
+                    breast tissue and that they can develop breast cancer. But breast cancer is less common in men
+                    because their breast duct cells are less developed than those of women and because they normally
+                    have lower levels of female hormones that affect the growth of breast cells.</p>
+            </div>
+
+            <button class="accordion">Shift work may increase risk of breast cancer</button>
+            <div class="panel">
+                <p>The International Agency for Research on Cancer recently concluded that women who worked night shifts
+                    for 30 years or more were twice as likely to develop breast cancer. However, women who work nights
+                    are advised not to panic. It’s worth noting that no link was found between higher breast cancer risk
+                    and periods of night work which were shorter than 30 years.</p>
+            </div>
+
+            <button class="accordion">More common in the left breast than the right</button>
+            <div class="panel">
+                <p>The left breast is 5 - 10% more likely to develop cancer than the right breast. The left side of the
+                    body is also roughly 5% more prone to melanoma (a type of skin cancer). Nobody is exactly sure why
+                    this is.</p>
+            </div>
+
+            <button class="accordion">80% survival rate (in developed countries)</button>
+            <div class="panel">
+                <p>Huge progress has been made in recent years in breast cancer. In fact, breast cancer management
+                    across risk assessment, prevention, surgery, radiation, and other treatment, has changed
+                    dramatically. Death rates from breast cancer in more developed countries have been declining in
+                    recent years, and now survival rates are 80% or over in countries like the US, Sweden and Japan.
+                    However, survival rates remain below 40% in low-income countries.</p>
+            </div>
+        </div>
 
     </main>
     <footer>
 
     </footer>
-    <script src="assets/js/indexscript.js"></script>
+    <script src="assets/js/factsscript.js"></script>
 </body>
+
 </html>
