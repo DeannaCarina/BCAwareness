@@ -68,13 +68,37 @@ Project Facilitator: Elvira Shorko
 
 Despite breast cancer being one of the most well researched and known-about cancers, there are still a massive amount of breast cancer related deaths that could have been prevented if it were for early detection and education. Our hope for this website is to have a quick, easy and informative resource for anybody who would like to learn more about how to detect breast cancers.
 
-The graphic below shows all of the potential pages and the content within that we could add to this website, some of these will be added and some won't - this will be talked about more in-depth in the FEasibility/Importance section of the README.
+The graphic below shows all of the potential pages and the content within that we could add to this website, some of these will be added and some won't - this will be talked about more in-depth in the FEasibility/Importance section of the README.<br>
 <img src="assets/readmeimages/pageplan.png" width="600px">
 
 #### Aims
+<ol>
+    <li>To be a safe non-judgemental environment for anybody affected by breast cancer to learn more about the pathology</li>
+    <li>To be a highly user intuitive application for all users</li>
+    <li>To be highly accessible in terms of colour scheme and contrast to cater for the needs of those with sensory needs</li>
+    <li>To be a learning tool for everybody that visits the site</li>
+    <li>To be a place for those affected by breast cancer to read other people's experiences and stories</li>
+    <li>To be a fun and positive experience when most experiences surrounding breast cancer are scary and upsetting</li>
+    <li>To be a stepping stone for individuals who want to learn more by supplying further reading with external links</li>
+</ol>
+
 #### Target Audience
+<ol>
+    <ul>Everybody</ul>
+    <ul>Although the majority of those who develop breast cancer are in the female over 50 demographic, the disease itself affects everybody, whether that's someone we know that has suffered from it, someone that has been told they're more at risk, or someone that has just had thoughts surrounding it. This web application is for all of those people and everyone in between. Cancer doesn't discriminate, and neither do we.</ul>
+</ol>
+
 #### User Stories
-##### As a new and returning user I want to:
+As a new and returning user I want to:
+<ol>
+    <li>Know the purpose of the website as soon as I navigate to the home/landing page</li>
+    <li>Navigate the website quickly and effectively</li>
+    <li>Find everything in the website that I need to find with ease</li>
+    <li>Have visual aids and obvious calls to action throughout the site to aid in user intuitiveness</li>
+    <li>Have up to date and relatable stroies from individuals affected by breast cancer</li>
+    <li>Have a pleasant experience when visiting the site and get the facts surrounding breast cancer</li>
+</ol>   
+
 #### Feasibility vs Importance
 <table>
     <tr>
@@ -84,37 +108,112 @@ The graphic below shows all of the potential pages and the content within that w
         <th>In or out?</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Obvious role of the website demonstrated with hero image/video and/or capture text</td>
+        <td>4</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Simple design with straightforward navigation to make it easier for the user to understand where to find information</td>
+        <td>5</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Relevant and relatable stories of people's experiences with breast cancer</td>
+        <td>4</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Facts from reputable sources explaining different things about breast cancer</td>
+        <td>3</td>
+        <td>5</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A simple quiz for site users to interact with to test their knowledge around breast cancer and it's awareness</td>
+        <td>3</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>Videos situated at opportune moments throughout the site to help raise awareness of breast cancer</td>
+        <td>3</td>
+        <td>4</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A fairly gender neutral site in terms of colour scheme to encourage everybody to stay on the site as this topic affects everybody</td>
+        <td>5</td>
+        <td>3</td>
+        <td>In</td>
+    </tr>
+    <tr>
+        <td>A news api to have updated articles on breast cancer related topics</td>
+        <td>2</td>
+        <td>3</td>
+        <td>Out</td>
+    </tr>
+    <tr>
+        <td>A site user forum for anyone affected by breast cancer to connect with each other and share their journeys</td>
+        <td>1</td>
+        <td>2</td>
+        <td>Out</td>
     </tr>
     <tr>
         <td></td>
-        <td>Average Viability x number of features:<br> </td>
-        <td>Sum of Importance:<br> </td>
+        <td>Average Viability x number of features:<br> 30</td>
+        <td>Sum of Importance:<br> 34</td>
         <td></td>
     </tr>
 </table>
-TABLE EXPLANATION HERE
+As we can see from the table above, the importance is higher than the viability, which which means that we may run into some problems during the implementation of the web-app if we were to implement all of these features. There are things that we would like to implement but would not have the means or knowledge or time to implement them. Therefore the web-app will take a more basic layout, and we will work within the confines of our limitations to acheive the main goals we have set.
+
 The table above has been plotted into a graph (below) to easily visualise the features that will be implemented into the web application and which ones won't be:
 <ul>
     <li>The features in the pink section will be implemented</li>
     <li>The features in the grey section could be implemented at a later date but aren't necessary right now</li>
     <li>The features in the turquoise section will not be implemented as it would be unwise to focus on these features until a later date</li>
 </ul>
-[graph image]
-[table image]
+<img src="assets/readmeimages/graph.png" width="600px"><br>
+<img src="assets/readmeimages/table.png" width="400px">
 
 ### Scope
 
+We have chosen to design and implement our web-application based on the MVP (Minimum Viable Product) model. This allows us to create a fully functioning web-app with the least amount of content while still having the website functionable for users. This allows us to see if the website has a positive reaction before more development work takes place (for example implementing features that we have chosen to leave out for the moment). 
+
+The MVP model will:
+<ul>
+    <li>Create a clear website with enough content for the customers wants and needs to be fulfilled without having dedicated too much time to the project itself</li>
+    <li>Allow us to work within the scope of our abilitiy while also allowing us to challenge ourselves</li>
+    <li>Result in a website with medium levels of UX without dedicating too much time to the project</li>
+    <li>Result in a basic yet easy to use and functional website for site visitors</li>
+</ul>
+While following the MVP model, to meet the user and developer goals, our website will include:
+<ul>
+    <li>A self-designed logo on all pages as assurance to the customer we are a trusted resource with our own identity</li>
+    <li>A nav-bar on all pages to be able to navigate to separate pages on the website</li>
+    <li>Links to associalted social media on all pages within the footer</li>
+    <li>A medium amount of visual content including videos as an alternative way for users to learn about breast cancer</li>
+    <li>A small web-quiz for users to interact with as an alternative way of learning about breast cancer</li>
+</ul>
+
 ### Structure
 
+We have chosen to carry out a very basic linear method of design for this website, and have a layout that is both logical and easy to understand for any user that visits the site. By having multiple page we can separate quite important information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
+
+<strong>On index.html</strong>: 
+<strong>On facts.html</strong>: 
+<strong>On risks.html</strong>: 
+<strong>On symptoms.html</strong>: 
+<strong>On quiz.html</strong>: 
+
 ### Skeleton
-<img src="assets/readmeimages/wireframeindex.png" width="700px">
-<img src="assets/readmeimages/wireframefacts.png" width="700px">
-<img src="assets/readmeimages/wireframerisks.png" width="700px">
-<img src="assets/readmeimages/wireframesymptoms.png" width="700px">
+<img src="assets/readmeimages/wireframeindex.png" width="700px"><br>
+<img src="assets/readmeimages/wireframefacts.png" width="700px"><br>
+<img src="assets/readmeimages/wireframerisks.png" width="700px"><br>
+<img src="assets/readmeimages/wireframesymptoms.png" width="700px"><br>
 <img src="assets/readmeimages/wireframequiz.png" width="700px">
 
 ### Surface
