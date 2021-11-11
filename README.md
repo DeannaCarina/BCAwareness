@@ -1,5 +1,5 @@
 
-[logo here]
+<img src="assets/readmeimages/logo.png">
 
 # Project Name Here
 Hackathon Project in partnership with IT Labs. Deadline Monday 15th November 2022 @ 3pm.
@@ -57,6 +57,8 @@ Project Facilitator: Elvira Shorko
 ## UX
 ### Strategy
 #### Vision
+<img src="assets/readmeimages/pageplan.png">
+
 #### Aims
 #### Target Audience
 #### User Stories
@@ -97,6 +99,10 @@ The table above has been plotted into a graph (below) to easily visualise the fe
 ### Structure
 
 ### Skeleton
+<img src="assets/readmeimages/indexhtml.png">
+<img src="assets/readmeimages/factshtml.png">
+<img src="assets/readmeimages/riskshtml.png">
+<img src="assets/readmeimages/symptomshtml.png">
 
 ### Surface
 #### Typography
