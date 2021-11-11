@@ -70,7 +70,7 @@ footer > span > a > i {
 }
 
 .nav-blur {
-  background-color: rgba(73, 73, 105, 0.7);
+  background-color: rgba(89, 89, 114, 0.7);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
@@ -85,7 +85,7 @@ footer > span > a > i {
 .ml-auto {
   margin-left: auto!important;
 }
-=======
+
 footer > span > a > i:hover {
     color: pink;
 }
@@ -116,3 +116,93 @@ footer > span > a:hover {
     margin-right: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HIDEO */
+.active::after {
+  content: none;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: rgb(127, 103, 131);
+}
