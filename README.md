@@ -41,7 +41,9 @@ Hackathon Project in partnership with IT Labs. Deadline Monday 15th November 202
 
 ## Introduction
 The Breast Review website covers some educative information on breast cancer awareness. The steps to take in examining your breasts, how often the breasts should be examine, risks factors associated with breast cancers and why early detection can save lives.
+<br>
 The World Health Organisation (WHO) Objectives is to reduce global breast cancer mortality by 2.5% per year, thereby averting 2.5 million breast cancer deaths globally between 2020 and 2040. Reducing global breast cancer mortality by 2.5% per year would avert 25% of breast cancer deaths by 2030 and 40% by 2040 among women under 70 years of age. The three pillars toward achieving these objectives are: health promotion for early detection; timely diagnosis; and comprehensive breast cancer management. It is therefore imperative for frequent reviews on the breast for early detection. 
+<br>
 We created this website with HTML and CSS with the use of other technologies.
 There are also contact links at the bottom of all pages with other resourceful links/sites.
 ### Demo
