@@ -55,7 +55,7 @@ nav{
     color: pink;
 }
 footer{
-    background-color: rgb(72, 86, 101);
+    background-color: rgba(89, 89, 114, 0.9);
     height: 70px;
     width: 100%;
     position: fixed;
@@ -197,12 +197,101 @@ footer > span > a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HIDEO */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-collapse a {
+  text-align: center;
+}
+
 .active::after {
   content: none;
 }
 
 .active {
   border-radius: 10px;
-  background-color: rgb(127, 103, 131);
+  background-color: rgb(109, 88, 112, 0.7);
+}
+
+.hero-image {
+  height: 100vh;
+
+  background-color: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
+      url('../images/risk-image.jpeg');
+  background: -o-linear-gradient(left bottom, left top, from(#fafafa), to(transparent)), 
+      url('../images/risk-image.jpeg');
+  background: linear-gradient(to top, #fafafa, transparent), 
+      url('../images/risk-image.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.risks-container {
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+
+.risks-box {
+  padding: 0 15% 1%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
 }
