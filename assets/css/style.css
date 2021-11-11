@@ -46,22 +46,56 @@
 /* ------NAVBAR------ */
 
 nav{
-    background-color: rgb(73, 73, 105);
+    background-color: rgb(72, 86, 101);
 }
-
+.navbar-brand, .nav-link{
+    color: white;
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: pink;
+}
 footer{
-    background-color: rgb(73, 73, 105);
+    background-color: rgb(72, 86, 101);
     height: 70px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    text-align: center;
     line-height: 70px;
 }
 
-footer > i {
-    color: white;
-    font-size: 2em;
+footer > span > a > i {
+    font-size: 1em;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+footer > span > a > i:hover {
+    color: pink;
+}
+
+footer > span > a {
+    color: white;
+}
+footer > span > a:hover {
+    color: pink;
+}
+
+.footer-span{
+    color: white;
+    height: 70px;
+    margin-left: 50px;
+}
+
+#footer-logo {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+#footer-logo > img{
+    transform: rotate(270deg);
+}
+#footer-partners{
+    float: right;
+    margin-right: 20px;
+}
+
