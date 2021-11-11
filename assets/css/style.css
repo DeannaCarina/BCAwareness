@@ -65,3 +65,20 @@ footer > i {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.nav-blur {
+  background-color: rgba(73, 73, 105, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.navbar li {
+  margin: 0 6px;
+}
+
+/* margins */
+
+.ml-auto {
+  margin-left: auto!important;
+}
