@@ -59,7 +59,70 @@
     <main>
         <div class="hero-image risks-container">
             <div class="risks-box container text-center pt-4">
-                <h3>RISKS</h3>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Topic
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Risk factors that cannot be changed</a>
+                        <a class="dropdown-item" href="#">Risk factors that can be changed</a>
+                        <a class="dropdown-item" href="#">Risk reduction measures</a>
+                    </div>
+
+                    <div id="not-changable-risk" class="risk-content">
+                        <h3 class="mt-4 mb-4">Risk factors that cannot be changed</h3>
+                        <button class="accordion">Getting older</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                The risk for breast cancer increases with age; most breast cancers are diagnosed after age 50
+                            </p>
+                        </div>
+                        <button class="accordion">Genetic mutations</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Inherited changes (mutations) to certain genes, such as BRCA1 and BRCA2. Women who have inherited these genetic changes are at higher risk of breast and ovarian cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Reproductive history</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Early menstrual periods before age 12 and starting menopause after age 55 expose women to hormones longer, raising their risk of getting breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Having dense breasts</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Dense breasts have more connective tissue than fatty tissue, which can sometimes make it hard to see tumors on a mammogram. Women with dense breasts are more likely to get breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Personal history of breast cancer or certain non-cancerous breast diseases</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Women who have had breast cancer are more likely to get breast cancer a second time. Some non-cancerous breast diseases such as atypical hyperplasia or lobular carcinoma in situ are associated with a higher risk of getting breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Family history of breast or ovarian cancer</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                A woman’s risk for breast cancer is higher if she has a mother, sister, or daughter (first-degree relative) or multiple family members on either her mother’s or father’s side of the family who have had breast or ovarian cancer. Having a first-degree male relative with breast cancer also raises a woman’s risk.
+                            </p>
+                        </div>
+                        <button class="accordion">Previous treatment using radiation therapy</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Women who had radiation therapy to the chest or breasts (for instance, treatment of Hodgkin’s lymphoma) before age 30 have a higher risk of getting breast cancer later in life.
+                            </p>
+                        </div>
+                        <button class="accordion">Women who took the drug diethylstilbestrol (DES)</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                DES is a drug that was given to some pregnant women in the United States between 1940 and 1971 to prevent miscarriage, have a higher risk. Women whose mothers took DES while pregnant with them are also at risk.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </main>
@@ -88,6 +151,17 @@
             <img src="assets/images/codelogo.png" alt="Code institute logo" height="50px">
         </span>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/factsscript.js"></script>
     <script src="assets/js/indexscript.js"></script>
 </body>
 
