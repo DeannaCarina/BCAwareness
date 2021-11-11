@@ -1,0 +1,22 @@
+/* ------NAVBAR------ */
+
+nav{
+    background-color: rgb(73, 73, 105);
+}
+
+footer{
+    background-color: rgb(73, 73, 105);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: 70px;
+}
+
+footer > i {
+    color: white;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
