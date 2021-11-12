@@ -20,7 +20,7 @@
     padding-bottom: 30px;
 }
 
-#facts_accordion {
+.facts_accordion {
     width: 33%;
     margin: 5px;
 }
@@ -422,4 +422,116 @@ footer > span > a:hover {
 
 .risk-content button {
   background-color: rgba(255,255,255,0.5)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kat - FACTS.html again */
+
+#facts-container-top {
+  padding: 20px;
+}
+
+.breast-cross-section {
+  height: auto;
+  border: 3px solid gray;
+  background: #eee;
+  width: 45%;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.breast-cross-section > img {
+  width: 207px;
+  height: 240px;
 }
