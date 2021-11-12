@@ -8,7 +8,7 @@
 }
 
 .main-div {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /*Accordian on facts.html*/
@@ -174,6 +174,30 @@ footer > span > a:hover {
 }
 
 /* -------------------------- QUIZ -------------------------- */
+
+:root {
+    --hue-neutral: 300;
+    --hue-correct: 145;
+    --hue-wrong: 333;
+}
+
+.quiz-div, .quiz-div::before, .quiz-div::after {
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 21%, 80%);
+}
+
+.quiz-div.correct {
+    --hue: var(--hue-correct)
+}
+
+.quiz-div.wrong {
+  --hue: var(--hue-wrong)
+}
 
 
 
