@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breast Cancer Awareness Hackathon Project">
+    <meta name="keywords" content="Breast cancer, awareness, breast, cancer, hackathon">
+    <link rel='shortcut icon' type='image/x-icon' href='assets/images/favicon.png' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Breast Review</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg nav-blur">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50px" width="60px"> The Breast Review</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="facts.html">Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="risks.html">Risks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="symptoms.html">Symptoms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-div">
+        <div class="hero-image">
+        </div>
+        <div class="risks-container text-container">
+            <div class="risks-box container text-center pt-4">
+                <div class="dropdown">
+
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Topic
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item risk-btn" href="#" onclick="selectRiskTopic('not-changable-risk')">
+                            Risk factors that cannot be changed
+                        </a>
+                        <a class="dropdown-item risk-btn" href="#" onclick="selectRiskTopic('changable-risk')">
+                            Risk factors that can be changed
+                        </a>
+                        <a class="dropdown-item risk-btn" href="#" onclick="selectRiskTopic('reduction-risk')">
+                            Risk reduction measures
+                        </a>
+                    </div>
+
+                    <div id="not-changable-risk" class="risk-content">
+                        <h3 class="mt-5 mb-5 font-purple">Risk factors that cannot be changed</h3>
+                        <button class="accordion">Getting older</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                The risk for breast cancer increases with age, most breast cancers are diagnosed after
+                                age 50.
+                            </p>
+                        </div>
+                        <button class="accordion">Genetic mutations</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Inherited changes (mutations) to certain genes, such as BRCA1 and BRCA2. Women who have
+                                inherited these genetic changes are at higher risk of breast and ovarian cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Reproductive history</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Early menstrual periods before age 12 and starting menopause after age 55 expose women
+                                to hormones longer, raising their risk of getting breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Having dense breasts</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Dense breasts have more connective tissue than fatty tissue, which can sometimes make it
+                                hard to see tumors on a mammogram. Women with dense breasts are more likely to get
+                                breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Personal history of breast cancer or certain non-cancerous breast
+                            diseases</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Women who have had breast cancer are more likely to get breast cancer a second time.
+                                Some non-cancerous breast diseases such as atypical hyperplasia or lobular carcinoma in
+                                situ are associated with a higher risk of getting breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Family history of breast or ovarian cancer</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                A woman’s risk for breast cancer is higher if she has a mother, sister, or daughter
+                                (first-degree relative) or multiple family members on either her mother’s or father’s
+                                side of the family who have had breast or ovarian cancer. Having a first-degree male
+                                relative with breast cancer also raises a woman’s risk.
+                            </p>
+                        </div>
+                        <button class="accordion">Previous treatment using radiation therapy</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Women who had radiation therapy to the chest or breasts (for instance, treatment of
+                                Hodgkin’s lymphoma) before age 30 have a higher risk of getting breast cancer later in
+                                life.
+                            </p>
+                        </div>
+                        <button class="accordion">Women who took the drug diethylstilbestrol (DES)</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                DES is a drug that was given to some pregnant women in the United States between 1940
+                                and 1971 to prevent miscarriage, have a higher risk. Women whose mothers took DES while
+                                pregnant with them are also at risk.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="changable-risk" class="risk-content hidden">
+                        <h3 class="mt-5 mb-5 font-purple">Risk factors that can be changed</h3>
+                        <button class="accordion">Not being physically active</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Women who are not physically active have a higher risk of getting breast cancer.
+                            </p>
+                        </div>
+                        <button class="accordion">Being overweight or obese after menopause</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Older women who are overweight or obese have a higher risk of getting breast cancer than
+                                those at a normal weight.
+                            </p>
+                        </div>
+                        <button class="accordion">Taking hormones</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Some forms of hormone replacement therapy (those that include both estrogen and
+                                progesterone) taken during menopause can raise risk for breast cancer when taken for
+                                more than five years. Certain oral contraceptives (birth control pills) also have been
+                                found to raise breast cancer risk.
+                            </p>
+                        </div>
+                        <button class="accordion">Reproductive History</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Having the first pregnancy after age 30, not breastfeeding, and never having a full-term
+                                pregnancy can raise breast cancer risk.
+                            </p>
+                        </div>
+                        <button class="accordion">Drinking Alcohol</button>
+                        <div class="panel">
+                            <p class="mt-3">
+                                Studies show that a woman’s risk for breast cancer increases with the more alcohol she
+                                drinks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="reduction-risk" class="risk-content hidden">
+                        <h3 class="mt-5 mb-5 font-purple">Measures to reduce the risk of cancer</h3>
+                        <ul>
+                            <li class="text-left mt-4 mb-4">Keep a healthy weight.</li>
+                            <hr>
+                            <li class="text-left mt-4 mb-4">Exercise regularly.</li>
+                            <hr>
+                            <li class="text-left mt-4 mb-4">Don’t drink alcohol, or limit alcoholic drinks.</li>
+                            <hr>
+                            <li class="text-left mt-4 mb-4">If you are taking, or have been told to take, hormone
+                                replacement therapyexternal icon or oral contraceptivesexternal icon (birth control
+                                pills), ask your doctor about the risks and find out if it is right for you.</li>
+                            <hr>
+                            <li class="text-left mt-4 mb-4">Breastfeed your children, if possible.</li>
+                            <hr>
+                            <li class="text-left mt-4 mb-4">If you have a family history of breast cancer or inherited
+                                changes in your BRCA1 and BRCA2
+                                genes, talk to your doctor about other ways to lower your risk.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span class="footer-span" id="footer-logo">
+            T<img src="assets/images/Picture9.png" alt="The B in breast review" height="30px">R
+        </span>
+        <span class="footer-span" id="footer-links">
+            <a href="https://www.cancerresearchuk.org/about-cancer/breast-cancer" target="_blank">Research</a> |
+            <a href="https://www.cancerresearchuk.org/get-involved/do-your-own-fundraising/fundraising-for-breast-cancer-research"
+                target="_blank">Fundraising</a>
+        </span>
+        <span class="footer-span" id="footer-socials">
+            <a href="facebook.com" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"
+                    target="_blank"></i></a>
+            <a href="twitter.com" target="_blank" aria-label="twitter"><i class="fab fa-twitter-square"
+                    target="_blank"></i></a>
+            <a href="youtube.com" target="_blank" aria-label="youtube"><i class="fab fa-youtube-square"
+                    target="_blank"></i></a>
+            <a href="instagram.com" target="_blank" aria-label="instagram"><i class="fab fa-instagram-square"
+                    target="_blank"></i></a>
+        </span>
+        <span class="footer-span" id="footer-partners">
+            <img src="assets/images/itlabslogo.png" alt="ITLabs logo" height="50px">
+            <img src="assets/images/codelogo.png" alt="Code institute logo" height="50px">
+        </span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/riskscript.js"></script>
+    <script src="assets/js/factsscript.js"></script>
+    <script src="assets/js/indexscript.js"></script>
+</body>
+
+</html>
