@@ -316,6 +316,22 @@ If you want to make changes to the repo without affecting it, you can make a cop
 ## Research
 ### DEFINITION:
 ### FACTS:
+
+The information contained within the facts.html page has been taken from the following sources:
+
+* [8 Interesting Facts About Breast Cancer on roche.com](https://www.roche.com/research_and_development/what_we_are_working_on/oncology/8-facts-about-breast-cancer.htm#fact_8)
+
+* [Statistics about breast cancer from the World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/breast-cancer)
+
+* [More facts about breast cancer from breastcancer.org](https://www.breastcancer.org/symptoms/understand_bc/myths-facts)
+
+* [General information about breast cancer from the NHS](https://www.nhs.uk/conditions/breast-cancer/)
+
+* [Statistics about breast cancer from breastcancernow.org](https://breastcancernow.org/about-us/media/facts-statistics)
+
+* [Information about second cancers from livestrong.org](https://www.livestrong.org/we-can-help/healthy-living-after-treatment/second-cancers)
+
+
 ### WHY IS THE WEB APPLICATION NEEDED?
 
 ## Credits
