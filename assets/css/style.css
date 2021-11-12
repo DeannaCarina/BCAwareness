@@ -74,7 +74,7 @@
   background-size: cover;
 }
 
-.facts-subhead {
+#facts-subhead {
   width: 45%;
   border-style: solid;
   border-color: gray;
@@ -626,10 +626,6 @@ footer > span > a:hover {
 
 /* Kat - FACTS.html again */
 
-#facts-container-top {
-  margin-top: 55px;
-}
-
 #facts-bottom{
   width: 95%;
   height: auto;
@@ -671,6 +667,7 @@ footer > span > a:hover {
 
 #facts-container-top {
   padding: 20px;
+  margin-top: 55px;
 }
 
 .breast-cross-section {
