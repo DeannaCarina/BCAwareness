@@ -106,11 +106,11 @@ nav{
 
 footer {
     background-color: rgba(89, 89, 114, 0.9);
-    height: 70px;
     width: 100%;
     /* position: fixed; */
     bottom: 0;
     line-height: 70px;
+    padding: 15px;
 }
 
 footer > span > a > i {
@@ -136,9 +136,6 @@ footer > span > a > i {
 
 /* -------------------------- MARGINS -------------------------- */
 
-footer{
-  margin-top: 50px;
-}
 .ml-auto {
   margin-left: auto!important;
 }
@@ -176,9 +173,9 @@ footer > span > a:hover {
 /* -------------------------- QUIZ -------------------------- */
 
 :root {
-    --hue-neutral: 300;
+    --hue-neutral: 305;
     --hue-correct: 145;
-    --hue-wrong: 333;
+    --hue-wrong: 0;
 }
 
 .quiz-div, .quiz-div::before, .quiz-div::after {
@@ -188,7 +185,7 @@ footer > span > a:hover {
     justify-content: center;
     align-items: center;
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 21%, 80%);
+    background-color: hsl(var(--hue), 20%, 85%);
 }
 
 .quiz-div.correct {
@@ -196,7 +193,78 @@ footer > span > a:hover {
 }
 
 .quiz-div.wrong {
-  --hue: var(--hue-wrong)
+    --hue: var(--hue-wrong)
+}
+
+.quiz-header {
+  margin-bottom: 30px;
+}
+
+.quiz-container {
+    width: 700px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.answer-btn {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 25%, 65%);
+    border: 1px solid hsl(var(--hue), 25%, 40%);
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.answer-btn:hover {
+    background-color: hsl(var(--hue), 25%, 80%);
+}
+
+.answer-btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.answer-btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn, .next-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #696980d7;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+/* Small and extra small devices */
+@media only screen and (max-width: 600px) {
+    .quiz-container {
+        width: 330px;
+    }
 }
 
 
@@ -698,3 +766,6 @@ footer > span > a:hover {
 #footer-partners img {
   height: 35px;
 }
+
+
+
