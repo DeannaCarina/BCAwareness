@@ -207,11 +207,11 @@ footer > span > a:hover {
 }
 
 .index-container{
-  min-height: 100vh;
-  margin-bottom: -70px;
+  padding-bottom: 200px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.541);
   padding-top: 100px;
+  margin-bottom: -100px;
 }
 
 
@@ -236,9 +236,34 @@ footer > span > a:hover {
 .story-container{
   width: 100%;
 }
+.story-content {
+  padding: 20px;
+  text-align: justify;
+}
+.story-image{
+  border-radius: 50%;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.story-container > .row > .col > a {
+  color: rgb(231, 27, 180);
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+
+.story-container > .row > .col > a:hover {
+  color: rgb(92, 43, 121);
+  text-decoration: underline;
+  
+}
+
 .col{
   margin: 50px;
-  background-color: rgb(197, 197, 197);
+  background-color: rgba(255, 255, 255, 0.658);
 }
 
 .row > *{
@@ -247,14 +272,45 @@ footer > span > a:hover {
 }
 .story-header{
   width: 100%;
-  border: 2px solid pink;
+  border: 2px solid rgb(253, 172, 185);
   line-height: 30px;
-  background-color: white;
+  background-color: rgba(255, 192, 203, 0.692);
   font-size: 20px;
   font-weight: 600;
   text-align: left;
   padding-left: 10px;
 }
+
+.index-callout{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(97, 95, 122, 0.418);
+  width: 70%;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#index-here{
+  background-color: pink;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+#index-here > a{
+  text-decoration: none;
+  color: black;
+}
+
+#index-here > a:hover{
+  color: grey
+}  
+
+
 
 @media screen and (max-width: 1400px){
   #large-video{
@@ -280,6 +336,9 @@ footer > span > a:hover {
   #breast-check-video{
     width: 400px;
     height: 250px;
+  }
+  .index-callout{
+    line-height: 70px;
   }
 }
 
