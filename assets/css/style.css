@@ -76,7 +76,6 @@ nav{
 }
 
 footer{
-    background-color: rgba(89, 89, 114, 0.9);
     height: 70px;
     width: 100%;
     /* position: fixed; */
@@ -138,7 +137,7 @@ footer > span > a:hover {
 }
 #footer-partners{
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 /* -------------------------- QUIZ -------------------------- */
@@ -312,6 +311,15 @@ footer > span > a:hover {
   color: rgba(89, 89, 114, 0.9);
 }
 
+.bg-purple {
+  background-color: rgba(89, 89, 114, 0.9);
+}
+
+.it-lab {
+  background-color: rgb(199, 199, 221);
+  border-radius: 5px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -374,4 +382,16 @@ footer > span > a:hover {
 
 .accordion {
   border-radius: 0!important;
+}
+
+.footer-span a {
+  color: white;
+}
+
+.footer-span i {
+  font-size: 25px;
+}
+
+#footer-partners img {
+  height: 35px;
 }
