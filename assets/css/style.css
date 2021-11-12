@@ -308,6 +308,9 @@ footer > span > a:hover {
     width: 400px;
     height: 250px;
   }
+  .index-callout{
+    line-height: 70px;
+  }
 }
 
 @media screen and (max-width: 620px){
