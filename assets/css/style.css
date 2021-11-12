@@ -107,6 +107,9 @@ footer > span > a > i {
 
 /* -------------------------- MARGINS -------------------------- */
 
+footer{
+  margin-top: 50px;
+}
 .ml-auto {
   margin-left: auto!important;
 }
@@ -160,7 +163,7 @@ footer > span > a:hover {
 .index-hero-video {
   z-index: -1;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -201,6 +204,29 @@ footer > span > a:hover {
   height: 400px;
 }
 
+.story-container{
+  width: 100%;
+}
+.col{
+  margin: 50px;
+  background-color: rgb(197, 197, 197);
+}
+
+.row > *{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.story-header{
+  width: 100%;
+  border: 2px solid pink;
+  line-height: 30px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 1400px){
   #large-video{
     display: none;
@@ -209,6 +235,9 @@ footer > span > a:hover {
     display: block;
     max-height: 100vh;
     min-width: 100%;
+  }
+  .col{
+    margin: 20px;
   }
 }
 
