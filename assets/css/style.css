@@ -10,8 +10,12 @@ body {
 }
 
 .main-div {
-    margin-top: 130px;
     margin-bottom: 50px;
+}
+
+.text-container {
+    padding-top: 120px;
+    padding-bottom: 30px;
 }
 
 #facts_accordion {
