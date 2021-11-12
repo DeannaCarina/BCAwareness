@@ -1,6 +1,3 @@
-$(document).ready(function () {
-    console.log("ciao");
-});
 
 var smallvid = document.getElementById("small-video");
 smallvid.playbackRate = 0.7; 
