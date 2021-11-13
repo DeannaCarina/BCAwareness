@@ -218,13 +218,12 @@ footer > span > a:hover {
 
 .quiz-div, .quiz-div::before, .quiz-div::after {
     box-sizing: border-box;
-    padding: 0;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 20%, 85%);
-    padding-top: 80px;
 }
 
 .quiz-div.correct {
@@ -236,7 +235,7 @@ footer > span > a:hover {
 }
 
 .quiz-header {
-  margin-bottom: 30px;
+  margin: 70px 10px 30px 10px;
 }
 
 .quiz-container {
@@ -245,7 +244,7 @@ footer > span > a:hover {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin: 10px;
+    margin: 140px;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -259,7 +258,7 @@ footer > span > a:hover {
 .answer-btn {
     --hue: var(--hue-neutral);
     background-color: #8E7C93;
-    border: 1px solid #8e7c93d2;
+    border: 1px solid hsla(288, 9%, 32%, 0.824);
     padding: 5px 10px;
     color: white;
     outline: none;
@@ -288,9 +287,15 @@ footer > span > a:hover {
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 15px;
-    background-color: #8E7C93;
-    color: white;
+    background-color: #F6C0D0;
+    color: #485665;
 }
+
+.start-btn:hover, .next-btn:hover {
+  background-color: #8E7C93;
+  color: white;
+}
+
 
 .hide {
     display: none;
@@ -298,11 +303,11 @@ footer > span > a:hover {
 
 
 
-
 /* Small and extra small devices */
 @media only screen and (max-width: 600px) {
     .quiz-container {
-        width: 330px;
+        max-width: 99vw;
+        margin: 80px 0;
     }
 }
 

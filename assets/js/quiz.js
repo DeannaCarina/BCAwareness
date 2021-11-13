@@ -95,5 +95,12 @@ const questions = [
             { text: '4', correct: true },
             { text: '22', correct: false },
         ]
+    },
+    {
+        question: 'Will we win the hackathon?',
+        answers: [
+            { text: 'of course', correct: true },
+            { text: 'yes', correct: true },
+        ]
     }
 ]
