@@ -60,15 +60,15 @@
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
-  min-height: 100vh;
+  min-height: 80vh;
 
   background-color: #fafafa;
-  background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
-  background: -o-linear-gradient(left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
-  background: linear-gradient(to top, #fafafa, transparent), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
+      url('../images/somedaysifeelthishappy.jpg');
+  background: -o-linear-gradient(left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
+      url('../images/somedaysifeelthishappy.jpg');
+  background: linear-gradient(to top, rgb(167, 167, 212), transparent), 
+      url('../images/somedaysifeelthishappy.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -757,6 +757,32 @@ footer > span > a:hover {
   margin: 5px;
 }
 
+@media only screen and (max-width: 1025px) {
+
+  /* bottom section on facts.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
+  #facts-bottom {
+      width: 80%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #left-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+  #right-wrapper {
+    width: 100%;
+}
+
+#centre-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+    clear: both;
+}
+}
+
 #facts-container-top {
   padding: 20px;
   margin-top: 55px;
@@ -800,6 +826,7 @@ footer > span > a:hover {
 #footer-partners img {
   height: 35px;
 }
+
 
 
 
