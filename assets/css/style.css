@@ -15,13 +15,8 @@
 /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 /* Style the buttons that are used to open and close the accordion panel */
 
-.text-container {
-    padding-top: 120px;
-    padding-bottom: 30px;
-}
-
 .facts_accordion {
-    width: 33%;
+    width: 100%;
     margin: 5px;
 }
 
@@ -79,7 +74,7 @@
   background-size: cover;
 }
 
-.facts-subhead {
+#facts-subhead {
   width: 45%;
   border-style: solid;
   border-color: gray;
@@ -631,8 +626,48 @@ footer > span > a:hover {
 
 /* Kat - FACTS.html again */
 
+#facts-bottom{
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.facts-box {
+  width: 100%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  background-color:rgba(255,192,203, 0.5);
+  margin: 10px;
+  padding: 5px
+}
+
+#left-wrapper{
+  width: 33.33%;
+  float: left;
+  height: auto;
+  margin: 5px;
+}
+
+#right-wrapper{
+  width: 33.33%;
+  float: right;
+  height: auto;
+  margin: 5px;
+}
+
+#centre-wrapper{
+  width: 33.33%;
+  height: auto;
+  margin: 5px;
+}
+
 #facts-container-top {
   padding: 20px;
+  margin-top: 55px;
 }
 
 .breast-cross-section {
@@ -647,7 +682,6 @@ footer > span > a:hover {
 .breast-cross-section > img {
   width: 207px;
   height: 240px;
-=======
   font-weight: 700;
 }
 
