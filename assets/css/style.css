@@ -1,19 +1,16 @@
 
- body {
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-  overflow-x: hidden;
-}
-
-.main-div {
-  padding-bottom: 50px;
-}
-
 /*Accordian on facts.html*/
 /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 /* Style the buttons that are used to open and close the accordion panel */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow-x: hidden;
+}
 
 .facts_accordion {
     width: 100%;
@@ -45,6 +42,10 @@
     transition: max-height 0.2s ease-out;
 }
 
+.accordion {
+  border-radius: 0!important;
+}
+
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -52,10 +53,19 @@
     float: right;
     margin-left: 5px;
 }
+
+.active {
+  border-radius: 10px;
+  background-color: rgb(109, 88, 112, 0.7);
+}
+
+.font-purple {
+  color: rgba(89, 89, 114, 0.9);
+}
   
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+.bg-purple {
+  background-color: rgba(89, 89, 114, 0.9);
+}
 
 /* ------HERO IMAGE FACTS.html------ */
 
@@ -64,11 +74,11 @@
 
   background-color: #fafafa;
   background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background: -o-linear-gradient(left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background: linear-gradient(to top, #fafafa, transparent), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,7 +95,7 @@
 
 }
 
-/* -------------------------- NAVBAR -------------------------- */
+/* -------------------------- NAVBAR and FOOTER -------------------------- */
 
 nav{
     background-color: rgb(72, 86, 101);
@@ -99,19 +109,48 @@ nav{
     color: pink;
 }
 
+.navbar-brand {
+  font-family:'Satisfy', sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-collapse a {
+text-align: center;
+}
+
 footer {
     background-color: rgba(89, 89, 114, 0.9);
     width: 100%;
     /* position: fixed; */
     bottom: 0;
     line-height: 70px;
-    padding: 15px;
 }
 
 footer > span > a > i {
     font-size: 1em;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.footer-span a {
+  color: white;
+}
+
+.footer-span i {
+  font-size: 25px;
+}
+
+#footer-partners img {
+  height: 35px;
 }
 
 .nav-blur {
@@ -127,6 +166,12 @@ footer > span > a > i {
 
 .navbar-toggler-icon{
   color: white;
+}
+
+#it-lab {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
 }
 
 /* -------------------------- MARGINS -------------------------- */
@@ -162,7 +207,7 @@ footer > span > a:hover {
 }
 #footer-partners{
     float: right;
-    margin-right: 10px;
+    margin: 0 30px;
 }
 
 /* -------------------------- QUIZ -------------------------- */
@@ -312,6 +357,7 @@ footer > span > a:hover {
   line-height: 150px;
   border-radius: 50px;
   margin: auto;
+  font-family: 'Pacifico', sans-serif;
 }
 
 #breast-check-video{
@@ -397,7 +443,39 @@ footer > span > a:hover {
   color: grey
 }  
 
+/* --------- RISKS ------- */
 
+.hero-image {
+  min-height: 60vh;
+
+  background-color: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
+      url('../images/risk-image.jpeg');
+  background: -o-linear-gradient(left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
+      url('../images/risk-image.jpeg');
+  background: linear-gradient(to top, rgb(167, 167, 212), transparent), 
+      url('../images/risk-image.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.risks-container {
+  padding-bottom: 10%;
+  background-color: rgb(167, 167, 212);
+}
+
+.risks-box {
+  padding: 0 15% 7%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.risk-content button {
+  background-color: rgba(255,255,255,0.5)!important;
+}
+
+/* -- MEDIA QUERIES --*/
 
 @media screen and (max-width: 1400px){
   #large-video{
@@ -416,6 +494,21 @@ footer > span > a:hover {
 @media screen and (max-width: 1000px){
   .index-heading{
     font-size: 3em;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  #footer-partners {
+    float: none;
+  }
+
+  .footer-span {
+    margin-left: 0;
   }
 }
 
@@ -557,72 +650,16 @@ footer > span > a:hover {
 
 
 
-/* HIDEO */
 
-.font-purple {
-  color: rgba(89, 89, 114, 0.9);
-}
 
-.bg-purple {
-  background-color: rgba(89, 89, 114, 0.9);
-}
 
-.it-lab {
-  background-color: rgb(199, 199, 221);
-  border-radius: 5px;
-}
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
 
-.navbar-collapse a {
-  text-align: center;
-}
 
-.active::after {
-  content: none;
-}
 
-.active {
-  border-radius: 10px;
-  background-color: rgb(109, 88, 112, 0.7);
-}
 
-.hero-image {
-  min-height: 60vh;
 
-  background-color: #fafafa;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
-      url('../images/risk-image.jpeg');
-  background: -o-linear-gradient(left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
-      url('../images/risk-image.jpeg');
-  background: linear-gradient(to top, rgb(167, 167, 212), transparent), 
-      url('../images/risk-image.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
-.risks-container {
-  padding-bottom: 10%;
-  background-color: rgb(167, 167, 212);
-}
-
-.risks-box {
-  padding: 0 15% 7%;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
-}
-
-.risk-content button {
-  background-color: rgba(255,255,255,0.5)!important;
-
-}
 
 
 
@@ -758,7 +795,7 @@ footer > span > a:hover {
 }
 
 #facts-container-top {
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 55px;
 }
 
@@ -784,22 +821,5 @@ footer > span > a:hover {
 .text-left {
   text-align: left!important;
 }
-
-.accordion {
-  border-radius: 0!important;
-}
-
-.footer-span a {
-  color: white;
-}
-
-.footer-span i {
-  font-size: 25px;
-}
-
-#footer-partners img {
-  height: 35px;
-}
-
 
 
