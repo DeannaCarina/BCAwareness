@@ -60,7 +60,8 @@
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
-  min-height: 80vh;
+  min-width: 1024px;
+  min-height: 100%;
 
   background-color: #fafafa;
   background: -webkit-gradient(linear, left bottom, left top, from(rgb(167, 167, 212)), to(transparent)), 
@@ -70,7 +71,6 @@
   background: linear-gradient(to top, rgb(167, 167, 212), transparent), 
       url('../images/somedaysifeelthishappy.jpg');
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -786,6 +786,7 @@ footer > span > a:hover {
 #facts-container-top {
   padding: 20px;
   margin-top: 55px;
+  height: 100%;
 }
 
 .breast-cross-section {
