@@ -1,7 +1,7 @@
 /*Accordian on facts.html*/
 /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 /* Style the buttons that are used to open and close the accordion panel */
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
 body {
     margin: 0;
     height: 100vh;
@@ -394,4 +394,10 @@ footer > span > a:hover {
 
 #footer-partners img {
   height: 35px;
+}
+
+.navbar-brand {
+  font-family:'Satisfy', sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
 }
