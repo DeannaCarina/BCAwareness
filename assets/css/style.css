@@ -1,3 +1,4 @@
+
 /*Accordian on facts.html*/
 /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 /* Style the buttons that are used to open and close the accordion panel */
@@ -8,19 +9,25 @@ body {
     width: 100vw;
     text-align: center;
     overflow-x: hidden;
+
+ body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 .main-div {
-    margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-.text-container {
-    padding-top: 120px;
-    padding-bottom: 30px;
-}
+/*Accordian on facts.html*/
+/*https://www.w3schools.com/howto/howto_js_accordion.asp*/
+/* Style the buttons that are used to open and close the accordion panel */
 
-#facts_accordion {
-    width: 33%;
+.facts_accordion {
+    width: 100%;
     margin: 5px;
 }
 
@@ -59,6 +66,34 @@ body {
   
 .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+/* ------HERO IMAGE FACTS.html------ */
+
+.hero-image-facts {
+  min-height: 100vh;
+
+  background-color: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
+      url('../images/some_days_i_feel_this_happy.jpg');
+  background: -o-linear-gradient(left bottom, left top, from(#fafafa), to(transparent)), 
+      url('../images/some_days_i_feel_this_happy.jpg');
+  background: linear-gradient(to top, #fafafa, transparent), 
+      url('../images/some_days_i_feel_this_happy.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#facts-subhead {
+  width: 45%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  background-color:rgba(255,192,203, 0.5);
+  margin: 10px;
+  padding: 5px;
+
 }
 
 /* -------------------------- NAVBAR -------------------------- */
@@ -75,12 +110,13 @@ nav{
     color: pink;
 }
 
-footer{
-    height: 70px;
+footer {
+    background-color: rgba(89, 89, 114, 0.9);
     width: 100%;
     /* position: fixed; */
     bottom: 0;
     line-height: 70px;
+    padding: 15px;
 }
 
 footer > span > a > i {
@@ -142,6 +178,101 @@ footer > span > a:hover {
 
 /* -------------------------- QUIZ -------------------------- */
 
+:root {
+    --hue-neutral: 305;
+    --hue-correct: 145;
+    --hue-wrong: 0;
+}
+
+.quiz-div, .quiz-div::before, .quiz-div::after {
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 20%, 85%);
+}
+
+.quiz-div.correct {
+    --hue: var(--hue-correct)
+}
+
+.quiz-div.wrong {
+    --hue: var(--hue-wrong)
+}
+
+.quiz-header {
+  margin-bottom: 30px;
+}
+
+.quiz-container {
+    width: 700px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.answer-btn {
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 25%, 65%);
+    border: 1px solid hsl(var(--hue), 25%, 40%);
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.answer-btn:hover {
+    background-color: hsl(var(--hue), 25%, 80%);
+}
+
+.answer-btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.answer-btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn, .next-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #696980d7;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+/* Small and extra small devices */
+@media only screen and (max-width: 600px) {
+    .quiz-container {
+        width: 330px;
+    }
+}
+
 
 
 
@@ -159,7 +290,7 @@ footer > span > a:hover {
 .index-hero-video {
   z-index: -1;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -174,11 +305,110 @@ footer > span > a:hover {
 }
 
 .index-container{
-  min-height: 100vh;
-  margin-bottom: -70px;
+  padding-bottom: 200px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.541);
+  padding-top: 100px;
+  margin-bottom: -100px;
 }
+
+
+.index-heading{
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+  font-weight: 600;
+  background-color: rgba(97, 95, 122, 0.418);
+  width: 70%;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#breast-check-video{
+  margin-top: 30px;
+  width: 800px;
+  height: 400px;
+}
+
+.story-container{
+  width: 100%;
+}
+.story-content {
+  padding: 20px;
+  text-align: justify;
+}
+.story-image{
+  border-radius: 50%;
+  width: 200px;
+  margin: 10px;
+  border: 2px solid white;
+}
+
+.story-container > .row > .col > a {
+  color: rgb(231, 27, 180);
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+
+.story-container > .row > .col > a:hover {
+  color: rgb(92, 43, 121);
+  text-decoration: underline;
+  
+}
+
+.col{
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.658);
+}
+
+.row > *{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.story-header{
+  width: 100%;
+  border: 2px solid rgb(253, 172, 185);
+  line-height: 30px;
+  background-color: rgba(255, 192, 203, 0.692);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.index-callout{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(97, 95, 122, 0.418);
+  width: 70%;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+#index-here{
+  background-color: pink;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+#index-here > a{
+  text-decoration: none;
+  color: black;
+}
+
+#index-here > a:hover{
+  color: grey
+}  
+
+
 
 @media screen and (max-width: 1400px){
   #large-video{
@@ -189,11 +419,44 @@ footer > span > a:hover {
     max-height: 100vh;
     min-width: 100%;
   }
+  .col{
+    margin: 20px;
+  }
 }
 
+@media screen and (max-width: 1000px){
+  .index-heading{
+    font-size: 3em;
+  }
+}
 
+@media screen and (max-width: 850px){
+  #breast-check-video{
+    width: 400px;
+    height: 250px;
+  }
+  .index-callout{
+    line-height: 70px;
+  }
+}
 
+@media screen and (max-width: 620px){
+  .index-heading{
+    font-size: 2em;
+    height: 100px;
+    line-height: 100px;
+  }
+}
 
+@media screen and (max-width: 440px){
+  #breast-check-video{
+    width: 90%;
+    height: 200px;
+  }
+  .index-heading{
+    font-size: 1.5em;
+  }
+}
 
 
 
@@ -369,6 +632,159 @@ footer > span > a:hover {
 
 .risk-content button {
   background-color: rgba(255,255,255,0.5)!important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kat - FACTS.html again */
+
+#facts-bottom{
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.facts-box {
+  width: 100%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  background-color:rgba(255,192,203, 0.5);
+  margin: 10px;
+  padding: 5px
+}
+
+#left-wrapper{
+  width: 33.33%;
+  float: left;
+  height: auto;
+  margin: 5px;
+}
+
+#right-wrapper{
+  width: 33.33%;
+  float: right;
+  height: auto;
+  margin: 5px;
+}
+
+#centre-wrapper{
+  width: 33.33%;
+  height: auto;
+  margin: 5px;
+}
+
+#facts-container-top {
+  padding: 20px;
+  margin-top: 55px;
+}
+
+.breast-cross-section {
+  height: auto;
+  border: 3px solid gray;
+  background: #eee;
+  width: 45%;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.breast-cross-section > img {
+  width: 207px;
+  height: 240px;
   font-weight: 700;
 }
 
@@ -396,8 +812,13 @@ footer > span > a:hover {
   height: 35px;
 }
 
+<<<<<<< HEAD
 .navbar-brand {
   font-family:'Satisfy', sans-serif;
   font-size: 25px;
   padding-top: 5px;
 }
+=======
+
+
+>>>>>>> ef0fbff149cb07dffb69f5edf2f9659fc63fdedf
