@@ -54,18 +54,9 @@ body {
     margin-left: 5px;
 }
 
-.active::after {
-  content: none;
-}
-
 .active {
   border-radius: 10px;
   background-color: rgb(109, 88, 112, 0.7);
-}
-
-  
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .font-purple {
@@ -104,7 +95,7 @@ body {
 
 }
 
-/* -------------------------- NAVBAR -------------------------- */
+/* -------------------------- NAVBAR and FOOTER -------------------------- */
 
 nav{
     background-color: rgb(72, 86, 101);
@@ -142,7 +133,6 @@ footer {
     /* position: fixed; */
     bottom: 0;
     line-height: 70px;
-    padding: 15px;
 }
 
 footer > span > a > i {
@@ -178,6 +168,12 @@ footer > span > a > i {
   color: white;
 }
 
+#it-lab {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
+}
+
 /* -------------------------- MARGINS -------------------------- */
 
 .ml-auto {
@@ -211,7 +207,7 @@ footer > span > a:hover {
 }
 #footer-partners{
     float: right;
-    margin-right: 10px;
+    margin: 0 30px;
 }
 
 /* -------------------------- QUIZ -------------------------- */
@@ -361,6 +357,7 @@ footer > span > a:hover {
   line-height: 150px;
   border-radius: 50px;
   margin: auto;
+  font-family: 'Pacifico', sans-serif;
 }
 
 #breast-check-video{
@@ -446,56 +443,6 @@ footer > span > a:hover {
   color: grey
 }  
 
-
-
-@media screen and (max-width: 1400px){
-  #large-video{
-    display: none;
-  }
-  #small-video{
-    display: block;
-    max-height: 100vh;
-    min-width: 100%;
-  }
-  .col{
-    margin: 20px;
-  }
-}
-
-@media screen and (max-width: 1000px){
-  .index-heading{
-    font-size: 3em;
-  }
-}
-
-@media screen and (max-width: 850px){
-  #breast-check-video{
-    width: 400px;
-    height: 250px;
-  }
-  .index-callout{
-    line-height: 70px;
-  }
-}
-
-@media screen and (max-width: 620px){
-  .index-heading{
-    font-size: 2em;
-    height: 100px;
-    line-height: 100px;
-  }
-}
-
-@media screen and (max-width: 440px){
-  #breast-check-video{
-    width: 90%;
-    height: 200px;
-  }
-  .index-heading{
-    font-size: 1.5em;
-  }
-}
-
 /* --------- RISKS ------- */
 
 .hero-image {
@@ -527,6 +474,74 @@ footer > span > a:hover {
 .risk-content button {
   background-color: rgba(255,255,255,0.5)!important;
 }
+
+/* -- MEDIA QUERIES --*/
+
+@media screen and (max-width: 1400px){
+  #large-video{
+    display: none;
+  }
+  #small-video{
+    display: block;
+    max-height: 100vh;
+    min-width: 100%;
+  }
+  .col{
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .index-heading{
+    font-size: 3em;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  #footer-partners {
+    float: none;
+  }
+
+  .footer-span {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 850px){
+  #breast-check-video{
+    width: 400px;
+    height: 250px;
+  }
+  .index-callout{
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .index-heading{
+    font-size: 2em;
+    height: 100px;
+    line-height: 100px;
+  }
+}
+
+@media screen and (max-width: 440px){
+  #breast-check-video{
+    width: 90%;
+    height: 200px;
+  }
+  .index-heading{
+    font-size: 1.5em;
+  }
+}
+
+
+
 
 
 
