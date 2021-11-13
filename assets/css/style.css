@@ -466,7 +466,7 @@ footer > span > a:hover {
 }
 
 .risks-box {
-  padding: 0 15% 7%;
+  padding: 0 12% 7%;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
 }
@@ -474,6 +474,42 @@ footer > span > a:hover {
 .risk-content button {
   background-color: rgba(255,255,255,0.5)!important;
 }
+
+/* -- SYMPTOMS -- */
+
+#symptoms-video {
+  width: 500px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 10%;
+}
+
+.symptoms-box {
+  padding: 0 10% 7%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.symptoms-container {
+  padding-bottom: 10%;
+  background-color: rgb(190, 153, 168);
+}
+
+.hero-image-symp {
+  min-height: 60vh;
+
+  background-color: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(190, 153, 168)), to(transparent)), 
+      url('../images/symp.jpeg');
+  background: -o-linear-gradient(left bottom, left top, from(rgb(190, 153, 168)), to(transparent)), 
+      url('../images/symp.jpeg');
+  background: linear-gradient(to top, rgb(190, 153, 168), transparent), 
+      url('../images/symp.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 /* -- MEDIA QUERIES --*/
 
@@ -513,10 +549,16 @@ footer > span > a:hover {
 }
 
 @media screen and (max-width: 850px){
-  #breast-check-video{
+  #breast-check-video, 
+  #symptoms-video{
     width: 400px;
     height: 250px;
   }
+
+  #symptoms-video {
+    margin: 10% 0 0;
+  }
+
   .index-callout{
     line-height: 70px;
   }
@@ -531,10 +573,12 @@ footer > span > a:hover {
 }
 
 @media screen and (max-width: 440px){
-  #breast-check-video{
+  #breast-check-video,
+  #symptoms-video{
     width: 90%;
     height: 200px;
   }
+
   .index-heading{
     font-size: 1.5em;
   }

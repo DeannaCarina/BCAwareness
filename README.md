@@ -446,6 +446,11 @@ The information contained within the facts.html page has been taken from the fol
 
 * [Information about second cancers from livestrong.org](https://www.livestrong.org/we-can-help/healthy-living-after-treatment/second-cancers)
 
+### RISKS:
+
+Information contained within the risks.html page has been taken from the following source:
+
+* [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/prevention.htm)
 
 ### WHY IS THE WEB APPLICATION NEEDED?
 
