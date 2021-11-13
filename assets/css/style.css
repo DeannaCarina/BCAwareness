@@ -2,6 +2,7 @@
 /*Accordian on facts.html*/
 /*https://www.w3schools.com/howto/howto_js_accordion.asp*/
 /* Style the buttons that are used to open and close the accordion panel */
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
 body {
     margin: 0;
@@ -9,22 +10,7 @@ body {
     width: 100vw;
     text-align: center;
     overflow-x: hidden;
-
- body {
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-  overflow-x: hidden;
 }
-
-.main-div {
-  padding-bottom: 50px;
-}
-
-/*Accordian on facts.html*/
-/*https://www.w3schools.com/howto/howto_js_accordion.asp*/
-/* Style the buttons that are used to open and close the accordion panel */
 
 .facts_accordion {
     width: 100%;
@@ -56,6 +42,10 @@ body {
     transition: max-height 0.2s ease-out;
 }
 
+.accordion {
+  border-radius: 0!important;
+}
+
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -63,10 +53,28 @@ body {
     float: right;
     margin-left: 5px;
 }
+
+.active::after {
+  content: none;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: rgb(109, 88, 112, 0.7);
+}
+
   
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.font-purple {
+  color: rgba(89, 89, 114, 0.9);
+}
+  
+.bg-purple {
+  background-color: rgba(89, 89, 114, 0.9);
+}
 
 /* ------HERO IMAGE FACTS.html------ */
 
@@ -75,11 +83,11 @@ body {
 
   background-color: #fafafa;
   background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background: -o-linear-gradient(left bottom, left top, from(#fafafa), to(transparent)), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background: linear-gradient(to top, #fafafa, transparent), 
-      url('../images/some_days_i_feel_this_happy.jpg');
+      url('../images/happy.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,6 +118,24 @@ nav{
     color: pink;
 }
 
+.navbar-brand {
+  font-family:'Satisfy', sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar-collapse a {
+text-align: center;
+}
+
 footer {
     background-color: rgba(89, 89, 114, 0.9);
     width: 100%;
@@ -123,6 +149,18 @@ footer > span > a > i {
     font-size: 1em;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.footer-span a {
+  color: white;
+}
+
+.footer-span i {
+  font-size: 25px;
+}
+
+#footer-partners img {
+  height: 35px;
 }
 
 .nav-blur {
@@ -458,151 +496,7 @@ footer > span > a:hover {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HIDEO */
-
-.font-purple {
-  color: rgba(89, 89, 114, 0.9);
-}
-
-.bg-purple {
-  background-color: rgba(89, 89, 114, 0.9);
-}
-
-.it-lab {
-  background-color: rgb(199, 199, 221);
-  border-radius: 5px;
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-
-.navbar-collapse a {
-  text-align: center;
-}
-
-.active::after {
-  content: none;
-}
-
-.active {
-  border-radius: 10px;
-  background-color: rgb(109, 88, 112, 0.7);
-}
+/* --------- RISKS ------- */
 
 .hero-image {
   min-height: 60vh;
@@ -632,8 +526,125 @@ footer > span > a:hover {
 
 .risk-content button {
   background-color: rgba(255,255,255,0.5)!important;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -769,7 +780,7 @@ footer > span > a:hover {
 }
 
 #facts-container-top {
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 55px;
 }
 
@@ -796,29 +807,4 @@ footer > span > a:hover {
   text-align: left!important;
 }
 
-.accordion {
-  border-radius: 0!important;
-}
 
-.footer-span a {
-  color: white;
-}
-
-.footer-span i {
-  font-size: 25px;
-}
-
-#footer-partners img {
-  height: 35px;
-}
-
-<<<<<<< HEAD
-.navbar-brand {
-  font-family:'Satisfy', sans-serif;
-  font-size: 25px;
-  padding-top: 5px;
-}
-=======
-
-
->>>>>>> ef0fbff149cb07dffb69f5edf2f9659fc63fdedf
