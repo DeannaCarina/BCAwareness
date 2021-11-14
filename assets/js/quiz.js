@@ -65,7 +65,7 @@ function selectAnswer(e) {
         resetState()
         startButton.innerText = 'Restart'
         startButton.classList.remove('hide')
-        // questionElement.innerText = 'For more information visit our other sections!'
+        questionElement.innerText = 'Well Done!! For more information visit our other sections!'
     }
     
 

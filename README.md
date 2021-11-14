@@ -489,6 +489,10 @@ In order to test the performance of the website we used the built-in Chrome DevO
 <img src="assets/readmeimages/perftest.png" width="500px"><br>
 
 
+### Bugs
+While developing the quiz functionality an issue with the last question was found. When the user gets to the last question, they don't get any feedback back of whether they chose the right or wrong answer. This is yet to be fixed.
+
+
 ## Deployment
 A live demo of the website can be found <a href="https://deannacarina.github.io/BCAwareness/" target="_blank">**HERE**</a><br>
 
@@ -587,8 +591,15 @@ Information contained within the risks.html page has been taken from the followi
 ### WHY IS THE WEB APPLICATION NEEDED?
 
 ## Credits
+
 ### Code
+
+The code used to create the quiz is based on [this tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1124s&ab_channel=WebDevSimplified) from WebDevSimplified
+
 ### Content
+
+The questions for the quiz were obtained from the quizes found in the [American Cancer Society](https://www.cancer.org/cancer/breast-cancer/breast-cancer-quiz.html) and in the [University of Rochester Medical Center](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentTypeID=40&ContentID=BreastCancerCancerBrQuiz) webpages.
+
 ### Images
 ### Video
 ### Acknowledgements
