@@ -70,8 +70,8 @@ body {
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
-  min-width: 1024px;
-  min-height: 100%;
+  min-width: 100%;
+  height: 100%;
 
   background-color: #fafafa;
   background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
@@ -82,6 +82,10 @@ body {
       url('../images/happy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #facts-subhead {
@@ -89,9 +93,13 @@ body {
   border-style: solid;
   border-color: gray;
   border-width: 3px;
+  border-radius: 15px;
   background-color:rgba(255,192,203, 0.5);
   margin: 10px;
-  padding: 5px;
+  margin-left: 30px;
+  margin-top: 95px;
+  padding: 10px;
+  float: left;
 
 }
 
@@ -755,7 +763,31 @@ footer > span > a:hover {
 
 /* Kat - FACTS.html again */
 
-#facts-bottom{
+.headline-wrapper {
+  margin-top: 0px;
+}
+
+.facts-headline {
+  color: rgb(255, 255, 255);
+background-color: rgba(97, 95, 122, 0.418);
+font-family: 'Pacifico', sans-serif;
+width: 30%;
+margin: 10px auto;
+border-radius: 50px;
+}
+
+.facts_accordion > h3 {
+  width: 100%;
+    border: 2px solid rgb(253, 172, 185);
+    line-height: 30px;
+    background-color: rgba(255, 192, 203, 0.692);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#facts-bottom {
   width: 95%;
   height: auto;
   margin: 0 auto;
@@ -769,6 +801,7 @@ footer > span > a:hover {
   border-style: solid;
   border-color: gray;
   border-width: 3px;
+  border-radius: 15px;
   background-color:rgba(255,192,203, 0.5);
   margin: 10px;
   padding: 5px
@@ -779,6 +812,7 @@ footer > span > a:hover {
   float: left;
   height: auto;
   margin: 5px;
+  margin-right: 20px;
 }
 
 #right-wrapper{
@@ -786,6 +820,7 @@ footer > span > a:hover {
   float: right;
   height: auto;
   margin: 5px;
+  margin-left: 25px;
 }
 
 #centre-wrapper{
@@ -827,12 +862,18 @@ footer > span > a:hover {
 }
 
 .breast-cross-section {
-  height: auto;
-  border: 3px solid gray;
-  background: #eee;
-  width: 45%;
-  margin: 0.5em;
-  padding: 0.5em;
+height: auto;
+border: 3px solid gray;
+border-radius: 15px;
+background: rgba(238, 238, 238, 0.5);
+width: 33%;
+margin-left: 60%;
+padding: 0.5em;
+margin-top: 80px;
+}
+
+.breast-cross-section > ol > li {
+font-style: italic;
 }
 
 .breast-cross-section > img {
