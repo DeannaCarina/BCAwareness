@@ -599,13 +599,24 @@ There is always a continuing need to raise awarenes of breast cancer. According 
 
 ### Code
 
+
+**facts.html**
+Accordion from [w3schools](https://www.w3schools.com/howto/howto_js_accordion.asp)
+
+**quiz.html**
 The code used to create the quiz is based on [this tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1124s&ab_channel=WebDevSimplified) from WebDevSimplified
+
 
 ### Content
 
 The questions for the quiz were obtained from the quizes found in the [American Cancer Society](https://www.cancer.org/cancer/breast-cancer/breast-cancer-quiz.html) and in the [University of Rochester Medical Center](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentTypeID=40&ContentID=BreastCancerCancerBrQuiz) webpages.
 
 ### Images
+
+**Facts.html**
+On facts.html, the background image of the tulips is from Katherine Biggs' mum.  She is an amateur photgrapher and you can see more of her work [here on Pixabay](https://pixabay.com/users/babyboomer100-3801748/).  Whilst Katherine wouldn't necessarily use one of her mum's images on a website, her mum sent her this image because it was one she took whilst she had breast cancer.
+
+The cross-section image of the breast was taken from [Wikipedia](https://en.wikipedia.org/wiki/Breast#Breast_cancer).
 
 Image (and story excerpt) for Laura in index.html: <a href="https://news.cancerresearchuk.org/2015/03/26/cancer-drugs-one-size-doesnt-fit-all-lauras-story/?_gl=1*na3lxk*_gcl_aw*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_ga*NjEzOTMxNDg0LjE2MzU3Nzc2ODg.*_ga_58736Z2GNN*MTYzNjcyMjc0OS42LjEuMTYzNjcyMjc3MC4zOQ..&_ga=2.44201127.2051762108.1636722750-613931484.1635777688&_gac=1.95694446.1635777700.CjwKCAjwoP6LBhBlEiwAvCcthAlFyQDbQrVSlRa_YZj1O-EvLuS5M2KkR2SAPwB4i6KgaUrEhM9nRxoCzFEQAvD_BwE">HERE</a>
 
