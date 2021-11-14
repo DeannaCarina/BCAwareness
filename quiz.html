@@ -21,7 +21,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg nav-blur">
 
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50px" width="60px"> The Breast Review</a>
+                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50" width="60"> The Breast Review</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -58,12 +58,10 @@
                 <div id="question-container" class="hide">
                     <div id="question">Question</div>
                     <div id="answer-buttons" class="btn-grid">
-                        <button class="btn answer-btn wrong">Answer 1</button>
-                        <button class="btn answer-btn correct">Answer 2</button>
-                        <button class="btn answer-btn">Answer 3</button>
-                        <button class="btn answer-btn">Answer 4</button>
-                    </div>
+                        <button class="btn answer-btn">Answer 1</button>
+                        <button class="btn answer-btn">Answer 2</button>
 
+                    </div>
                 </div>
                 <div class="controls">
                     <button id="start-btn" class="start-btn btn">Start</button>
@@ -76,30 +74,44 @@
 
     <!-------------------------------------- FOOTER -------------------------------------->
     <footer>
-        <span class="footer-span" id="footer-logo">
-            T<img src="assets/images/Picture9.png" alt="The B in breast review" height="30px">R
-        </span>
-        <span class="footer-span" id="footer-links">
-            <a href="https://www.cancerresearchuk.org/about-cancer/breast-cancer" target="_blank">Research</a> | 
-            <a href="https://www.cancerresearchuk.org/get-involved/do-your-own-fundraising/fundraising-for-breast-cancer-research"
-                target="_blank">Fundraising</a>
-        </span>
-        <span class="footer-span" id="footer-socials">
-            <a href="facebook.com" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"
-                target="_blank"></i></a>
-            <a href="twitter.com" target="_blank" aria-label="twitter"><i class="fab fa-twitter-square"
-                target="_blank"></i></a>
-            <a href="youtube.com" target="_blank" aria-label="youtube"><i class="fab fa-youtube-square"
-                target="_blank"></i></a>
-            <a href="instagram.com" target="_blank" aria-label="instagram"><i class="fab fa-instagram-square"
-              target="_blank"></i></a>
-        </span>
-        <span class="footer-span" id="footer-partners">
-            <img src="assets/images/itlabslogo.png" alt="ITLabs logo" height="50px">
-            <img src="assets/images/codelogo.png" alt="Code institute logo" height="50px">
-        </span>
+        <div class="row bg-purple">
+            <div class="col-12 col-lg-3 text-center footer-logo">
+                <span class="footer-span" id="footer-logo">
+                    T<img src="assets/images/Picture9.png" alt="The B in breast review" height="18">R
+                </span>
+            </div>
+            <div class="col-12 col-lg-3 text-center">
+                <span class="footer-span" id="footer-links">
+                    <a href="https://www.cancerresearchuk.org/about-cancer/breast-cancer" target="_blank">Research</a> |
+                    <a href="https://www.cancerresearchuk.org/get-involved/do-your-own-fundraising/fundraising-for-breast-cancer-research"
+                        target="_blank">Fundraising</a>
+                </span>
+            </div>
+            <div class="col-12 col-lg-3 text-center">
+                <span class="footer-span" id="footer-socials">
+                    <a href="https://facebook.com" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="twitter"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://youtube.com" target="_blank" aria-label="youtube"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="fab fa-instagram-square"></i></a>
+                </span>
+            </div>
+            <div class="col-12 col-lg-3 text-center">
+                <span class="footer-span" id="footer-partners">
+                    <img id="it-lab" src="assets/images/itlabslogo.png" alt="ITLabs logo" height="50">
+                    <img src="assets/images/codelogo.png" alt="Code sinstitute logo" height="50">
+                </span>
+            </div>
+        </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
     <script src="assets/js/quiz.js"></script>
 </body>
 

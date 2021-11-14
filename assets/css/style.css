@@ -74,7 +74,8 @@ body {
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
-  min-height: 100vh;
+  min-width: 100%;
+  height: 100%;
 
   background-color: #fafafa;
   background: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(transparent)), 
@@ -84,8 +85,11 @@ body {
   background: linear-gradient(to top, #fafafa, transparent), 
       url('../images/happy.jpg');
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #facts-subhead {
@@ -93,9 +97,13 @@ body {
   border-style: solid;
   border-color: gray;
   border-width: 3px;
+  border-radius: 15px;
   background-color:rgba(255,192,203, 0.5);
   margin: 10px;
-  padding: 5px;
+  margin-left: 30px;
+  margin-top: 120px;
+  padding: 10px;
+  float: left;
 
 }
 
@@ -108,7 +116,12 @@ nav{
 .navbar-brand, .nav-link{
     color: white;
 }
-
+#footer-links > a:hover{
+  color: pink;
+}
+#footer-socials > a > i:hover {
+  color: pink;
+}
 .nav-link:hover, .navbar-brand:hover{
     color: pink;
 }
@@ -184,15 +197,8 @@ footer > span > a > i {
   margin-left: auto!important;
 }
 
-footer > span > a > i:hover {
-    color: pink;
-}
-
 footer > span > a {
     color: white;
-}
-footer > span > a:hover {
-    color: pink;
 }
 
 .footer-span{
@@ -347,10 +353,11 @@ footer > span > a:hover {
 }
 
 .index-container{
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.541);
   padding-top: 100px;
+  /* margin-bottom: -100px; */
 }
 
 
@@ -427,15 +434,18 @@ footer > span > a:hover {
   font-weight: 600;
   background-color: rgba(97, 95, 122, 0.418);
   width: 70%;
-  height: 150px;
-  line-height: 150px;
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
   border-radius: 50px;
   margin: auto;
 }
 
 #index-here{
   background-color: pink;
-  padding: 5px;
+  padding: 2px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 10px;
@@ -578,10 +588,6 @@ footer > span > a:hover {
   #symptoms-video {
     margin: 10% 0 0;
   }
-
-  .index-callout{
-    line-height: 70px;
-  }
 }
 
 @media screen and (max-width: 620px){
@@ -589,6 +595,7 @@ footer > span > a:hover {
     font-size: 2em;
     height: 100px;
     line-height: 100px;
+    border-radius: 20px;
   }
 }
 
@@ -819,13 +826,26 @@ footer > span > a:hover {
 
 /* Kat - FACTS.html again */
 
-#facts-bottom{
+.facts_accordion > h3 {
+  width: 100%;
+    border: 2px solid rgb(253, 172, 185);
+    line-height: 30px;
+    background-color: rgba(255, 192, 203, 0.692);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#facts-bottom {
   width: 95%;
   height: auto;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .facts-box {
@@ -833,6 +853,7 @@ footer > span > a:hover {
   border-style: solid;
   border-color: gray;
   border-width: 3px;
+  border-radius: 15px;
   background-color:rgba(255,192,203, 0.5);
   margin: 10px;
   padding: 5px
@@ -843,6 +864,7 @@ footer > span > a:hover {
   float: left;
   height: auto;
   margin: 5px;
+  margin-right: 20px;
 }
 
 #right-wrapper{
@@ -850,6 +872,7 @@ footer > span > a:hover {
   float: right;
   height: auto;
   margin: 5px;
+  margin-left: 25px;
 }
 
 #centre-wrapper{
@@ -858,24 +881,74 @@ footer > span > a:hover {
   margin: 5px;
 }
 
-#facts-container-top {
-  padding: 20px 0;
-  margin-top: 55px;
-}
-
 .breast-cross-section {
   height: auto;
   border: 3px solid gray;
-  background: #eee;
+  border-radius: 15px;
+  background: rgba(238, 238, 238, 0.5);
   width: 45%;
-  margin: 0.5em;
+  margin-left: 53%;
   padding: 0.5em;
+  margin-top: 40px;
+  }
+  
+  .breast-cross-section > img {
+    width: 207px;
+    height: 240px;
+    font-weight: 700;
+  }
+
+@media only screen and (max-width: 1025px) {
+
+  /* bottom section on facts.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
+  #facts-bottom {
+      width: 80%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #left-wrapper {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: -5px;
 }
 
-.breast-cross-section > img {
-  width: 207px;
-  height: 240px;
-  font-weight: 700;
+  #right-wrapper {
+    width: 100%;
+    margin-left: -5px;
+}
+
+#centre-wrapper {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: -5px;
+    clear: both;
+}
+
+.breast-cross-section {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+#facts-container-top {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#facts-subhead {
+  width: 100%;
+  margin-top: 25px;
+}
+}
+
+#facts-container-top {
+  padding: 20px 0;
+  margin-top: 55px;
+  height: 100%;
 }
 
 .hidden {
@@ -885,5 +958,6 @@ footer > span > a:hover {
 .text-left {
   text-align: left!important;
 }
+
 
 

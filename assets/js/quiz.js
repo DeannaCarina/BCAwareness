@@ -65,7 +65,7 @@ function selectAnswer(e) {
         resetState()
         startButton.innerText = 'Restart'
         startButton.classList.remove('hide')
-        questionElement.innerText = 'For more information visit our other sections!'
+        // questionElement.innerText = 'For more information visit our other sections!'
     }
     
 
@@ -90,17 +90,122 @@ function clearStatusClass(element) {
 // list of questions
 const questions = [
     {
-        question: 'What is 2 + 2?',
+        question: 'You can get breast cancer even if it does not run in your family',
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false },
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
         ]
     },
     {
-        question: 'Will we win the hackathon?',
+        question: 'You still need mammograms after menopause',
         answers: [
-            { text: 'of course', correct: true },
-            { text: 'yes', correct: true },
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
         ]
-    }
+    },
+    {
+        question: 'Men can also get breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Surgery and needle biopsies can cause breast cancer to spread',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'There is nothing you can do to lower your breast cancer risk',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'Finding breast cancer early is the key to successful treatment',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Older women are more likely to develop breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Most breast lumps are cancer',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'It is ok to use deodorant on the day you have a mammogram',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'Women who drink more than one alcoholic beverage a day increase their risk for breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Women who have their first child before age 30 and breastfeed are less likely to develop breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Smoking may increase your risk for breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Breast cancer can be treated by surgery, radiation, hormone therapy and chemotherapy',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'Starting at age 30, women should have a mammogram every 1 or 2 years',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'The chances of developing breast cancer are higher if your mother, sister, or daughter have it or have had it',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
+    {
+        question: 'It is safe for women to use hormone therapy for a prolonged time during menopause',
+        answers: [
+            { text: 'True', correct: false },
+            { text: 'False', correct: true },
+        ]
+    },
+    {
+        question: 'Regular exercise can reduce your risk for breast cancer',
+        answers: [
+            { text: 'True', correct: true },
+            { text: 'False', correct: false },
+        ]
+    },
 ]
