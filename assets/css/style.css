@@ -214,13 +214,11 @@ footer > span > a:hover {
 
 :root {
     --hue-neutral: 305;
-    --hue-correct: 145;
-    --hue-wrong: 0;
 }
 
 .quiz-div, .quiz-div::before, .quiz-div::after {
     box-sizing: border-box;
-    padding: 0;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,15 +227,15 @@ footer > span > a:hover {
 }
 
 .quiz-div.correct {
-    --hue: var(--hue-correct)
+    background-color: #018667cc;
 }
 
 .quiz-div.wrong {
-    --hue: var(--hue-wrong)
+    background-color: #C83C51cc;
 }
 
 .quiz-header {
-  margin-bottom: 30px;
+  margin: 70px 10px 30px 10px;
 }
 
 .quiz-container {
@@ -246,7 +244,7 @@ footer > span > a:hover {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin: 10px;
+    margin: 140px;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -259,23 +257,23 @@ footer > span > a:hover {
 
 .answer-btn {
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 25%, 65%);
-    border: 1px solid hsl(var(--hue), 25%, 40%);
+    background-color: #8E7C93;
+    border: 1px solid hsla(288, 9%, 32%, 0.824);
     padding: 5px 10px;
     color: white;
     outline: none;
 }
 
 .answer-btn:hover {
-    background-color: hsl(var(--hue), 25%, 80%);
+    background-color: #C29EB2;
 }
 
 .answer-btn.correct {
-    --hue: var(--hue-correct);
+    background-color: #018667cc;
 }
 
 .answer-btn.wrong {
-    --hue: var(--hue-wrong);
+    background-color: #C83C51cc;
 }
 
 .controls {
@@ -289,21 +287,27 @@ footer > span > a:hover {
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 15px;
-    background-color: #696980d7;
-    color: white;
+    background-color: #F6C0D0;
+    color: #485665;
 }
 
-.hidden {
+.start-btn:hover, .next-btn:hover {
+  background-color: #8E7C93;
+  color: white;
+}
+
+
+.hide {
     display: none;
 }
-
 
 
 
 /* Small and extra small devices */
 @media only screen and (max-width: 600px) {
     .quiz-container {
-        width: 330px;
+        max-width: 99vw;
+        margin: 80px 0;
     }
 }
 
