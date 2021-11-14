@@ -108,7 +108,12 @@ nav{
 .navbar-brand, .nav-link{
     color: white;
 }
-
+#footer-links > a:hover{
+  color: pink;
+}
+#footer-socials > a > i:hover {
+  color: pink;
+}
 .nav-link:hover, .navbar-brand:hover{
     color: pink;
 }
@@ -184,15 +189,8 @@ footer > span > a > i {
   margin-left: auto!important;
 }
 
-footer > span > a > i:hover {
-    color: pink;
-}
-
 footer > span > a {
     color: white;
-}
-footer > span > a:hover {
-    color: pink;
 }
 
 .footer-span{
