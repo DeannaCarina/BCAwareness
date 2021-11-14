@@ -539,8 +539,19 @@ Information contained within the risks.html page has been taken from the followi
 
 ## Credits
 ### Code
+
+**Facts.html**
+
+Accordion from [w3schools](https://www.w3schools.com/howto/howto_js_accordion.asp)
+
 ### Content
 ### Images
+
+**Facts.html**
+On facts.html, the background image of the tulips is from Katherine Biggs' mum.  She is an amateur photgrapher and you can see more of her work [here on Pixabay](https://pixabay.com/users/babyboomer100-3801748/).  Whilst Katherine wouldn't necessarily use one of her mum's images on a website, her mum sent her this image because it was one she took whilst she had breast cancer.
+
+The cross-section image of the breast was taken from [Wikipedia](https://en.wikipedia.org/wiki/Breast#Breast_cancer).
+
 ### Video
 ### Acknowledgements
 
