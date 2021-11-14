@@ -349,10 +349,93 @@ The main features to be implemented in the website were determined in the Strate
 </ul>
 
 ## Testing
+
+To make the testing of our website easier and more structured, we have decided to carry out a structured approach to testing, and test the following things: Functionality, Compatibility, User Testing Stories, Code Validation, Peer Review, Development Problems, Accessibility and Performance Testing.
+
 ### Functionality
+
+The first section of our testing structure for the website was to look at the functionality of the website and make sure that it meets the needs of the use on the most basic levels and also to ensure that all the interactive aspects of the website all worked with no problems.
+
+<ul>
+    <li>All internal links on the website need to be usable, and open in the same window.
+        <ul>
+            <li>All links in the menu bar at the top of all pages will direct the customer to the relevant page: 'Home' - to index.html, 'Facts' - to facts.html, 'risks' - to risks.html, 'Symptoms' - to symptoms.html and 'Quiz' - to quiz.html</li>
+            <li>The button in the callout section at the bottom of index.html will direct the customer to the quiz page</li>
+        </ul>    
+    </li>       
+    <li>All external links on the website need to be usable, and open in a new window.
+        <ul>
+            <li>The social media links in the footer of all pages will direct the customer to the relevant social media platform in a new tab.</li>
+            <li>The 'read more about [person]'s story' links in index.html sections will direct the customer to the related story pages in a new tab.</li>
+            <li>The reference link in facts.html will direct the user to the related website in a new tab.</li>
+            <li>The fundraising and research links in the footer of all pages will direct the user to cancer research uk relevant pages in a new tab.</li>
+            <li>The youtube videos embeded in index.html and symptoms/html work with no problems and direct to the video page when clicked</li>
+        </ul>    
+    </li>  
+    <li>All elements with an associated psuedo class work when the action is carried out (e.g. Hover).
+        <ul>
+            <li>All internal link buttons in the nav bar will have a subtle colour change when the user hovers over them</li>
+            <li>The call to action button text at the bottom of index.html will change colour when the user hovers over it</li>
+            <li>The start button in quiz.html will change colour when the user hovers over it</li>
+            <li>All social media and external links in the footer will change colour when the user hovers over them</li>
+        </ul>    
+    </li>     
+</ul><br>
+
 ### Compatibility
+
+The second section of our testing regime for the website was to ensure that the website is compatible through a range of devices, screen sizes and internet browsers. Throughout the development process, the website was tested on a number of devices: 
+
+<ul>
+    <li>17.3 inch laptop running windows</li>
+    <li>15.3 inch laptop running ubuntu</li>
+    <li>16 inch MacBook Pro</li>
+    <li>8 inch Samsung Galaxy Tab A</li>
+    <li>iPad mini</li>
+    <li>iPhone 8</li>
+</ul>
+
+It was also tested in Chrome, Firefox, Internet Explorer and Safari as well as Samsung's own internet browser. By also using Chrome Dev Tools, we were able to manually change the screen size to see when elements within the web pages 'break', by using this method, we could pinpoint the exact screen widths and heights to be defined in the CSS media screen queries and alter the stylings to fit accordingly. 
+The video below shows how we checked the responsiveness of the website at all screensizes.<br><br>
+<img src="assets/readmeimages/responsive.gif" alt="Gif showing responsiveness of website section"><br>
+
 ### User Testing Stories
+
+The third section of our testing structure was to ensure that customer all user stories identified in the strategy plane have been acknowledged and achieved.<br><br>
+
+<em>"I want to know the purpose of the website as soon as I navigate to the home/landing page" & "I want to navigate the website quickly and effectively" & "I want to find everything in the website that I need to find with ease"</em><br>
+<img src="assets/readmeimages/image-home.png" alt="Screenshot of top of landing page" width="600px"><br>
+
+>We have tried to make the website as intuitive as possible. From the first time the user navigates to the home page we have tried to make it so the user is aware straight away of the function of the website by including relevent video footage and cover text to exaplain what the website is for. As soon as the user navigates to the home page, the things they should see are as follows: The 'hero' video, the menu/nav bar, the logo image and the website 'title': <em>The Breast Review</em>. We have used straightforward terminology in the navigation bar so the user knows where they are navigating to and what they will find once they have navigated there.<br>
+
+<em>"I want to have visual aids and obvious calls to action throughout the site to aid in user intuitiveness"</em><br>
+<img src="assets/readmeimages/calls.png" alt="Screenshot of calls to action within the website" width="600px"><br>
+
+>There are separate pages within the website for the user to browse at their leisure to learn about breast cancer awareness. We feel that the main alternative feature of our website is the fact we are including a breast-cancer awareness quiz, so we chose to have a callout to this page on the main home page to encourage more user visits to this page.<br>
+
+<em>"Have up to date and relatable stroies from individuals affected by breast cancer"</em><br>
+<img src="assets/readmeimages/stories.png" alt="Screenshot of individual stories on index.html" width="600px"><br>
+
+>On the main home page, there are 6 stories featured of people who have been affected by breast cancer. We have made these stories relatable, accessible and inclusive of all genders. We hope that by having these stories front-and-center in the website it will raise more awareness of the fact that everybody is at risk of breast cancer, not just women over 50.<br>
+
+<em>"Have a pleasant experience when visiting the site and get the facts surrounding breast cancer"</em><br>
+
+>Throughout the website we have tried to keep the main theme informative rather than emotional/scare-tactics which is what some cancer awareness websites use. The facts.html, risks.html and symptoms.html are purely factual pages to try and help the user raise their awareness of breast cancer in a neutral, non-biased environment. By having the quiz incorporated into the website, this gives the user a positive and interactive task to carry out while also raising their awareness of breast cancer.<br>
+
+
 ### Code Validation
+
+The fourth section of our testing structure for the website was to ensure all code written passes through code validation software with no errors or warnings.
+
+
+
+
+
+
+
+
+
+
 ### Issues Found During Deployment
 ### Accessibility
 ### Performance Testing
