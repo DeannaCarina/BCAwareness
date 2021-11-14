@@ -844,6 +844,8 @@ footer > span > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .facts-box {
@@ -884,8 +886,8 @@ footer > span > a {
   border: 3px solid gray;
   border-radius: 15px;
   background: rgba(238, 238, 238, 0.5);
-  width: 33%;
-  margin-left: 60%;
+  width: 45%;
+  margin-left: 53%;
   padding: 0.5em;
   margin-top: 40px;
   }
