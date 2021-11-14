@@ -62,11 +62,13 @@ function selectAnswer(e) {
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
     } else {
-        resetState();
-        startButton.innerText = 'Restart';
-        startButton.classList.remove('hide');
-        // questionElement.innerText = 'For more information visit our other sections!'
-    }
+
+      resetState();
+      startButton.innerText = 'Restart';
+      startButton.classList.remove('hide');
+      // questionElement.innerText = 'For more information visit our other sections!'
+
+  }
     
 
 }
