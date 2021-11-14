@@ -97,7 +97,7 @@ body {
   background-color:rgba(255,192,203, 0.5);
   margin: 10px;
   margin-left: 30px;
-  margin-top: 95px;
+  margin-top: 120px;
   padding: 10px;
   float: left;
 
@@ -811,19 +811,6 @@ footer > span > a:hover {
 
 /* Kat - FACTS.html again */
 
-.headline-wrapper {
-  margin-top: 0px;
-}
-
-.facts-headline {
-  color: rgb(255, 255, 255);
-background-color: rgba(97, 95, 122, 0.418);
-font-family: 'Pacifico', sans-serif;
-width: 30%;
-margin: 10px auto;
-border-radius: 50px;
-}
-
 .facts_accordion > h3 {
   width: 100%;
     border: 2px solid rgb(253, 172, 185);
@@ -877,6 +864,23 @@ border-radius: 50px;
   margin: 5px;
 }
 
+.breast-cross-section {
+  height: auto;
+  border: 3px solid gray;
+  border-radius: 15px;
+  background: rgba(238, 238, 238, 0.5);
+  width: 33%;
+  margin-left: 60%;
+  padding: 0.5em;
+  margin-top: 40px;
+  }
+  
+  .breast-cross-section > img {
+    width: 207px;
+    height: 240px;
+    font-weight: 700;
+  }
+
 @media only screen and (max-width: 1025px) {
 
   /* bottom section on facts.html - when the screen is less than 1025px wide, make the three boxes stack on top of each other instead of next to each other */
@@ -889,17 +893,38 @@ border-radius: 50px;
 
   #left-wrapper {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-left: -5px;
 }
 
   #right-wrapper {
     width: 100%;
+    margin-left: -5px;
 }
 
 #centre-wrapper {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    margin-left: -5px;
     clear: both;
+}
+
+.breast-cross-section {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+#facts-container-top {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#facts-subhead {
+  width: 100%;
+  margin-top: 25px;
 }
 }
 
@@ -907,27 +932,6 @@ border-radius: 50px;
   padding: 20px 0;
   margin-top: 55px;
   height: 100%;
-}
-
-.breast-cross-section {
-height: auto;
-border: 3px solid gray;
-border-radius: 15px;
-background: rgba(238, 238, 238, 0.5);
-width: 33%;
-margin-left: 60%;
-padding: 0.5em;
-margin-top: 80px;
-}
-
-.breast-cross-section > ol > li {
-font-style: italic;
-}
-
-.breast-cross-section > img {
-  width: 207px;
-  height: 240px;
-  font-weight: 700;
 }
 
 .hidden {
