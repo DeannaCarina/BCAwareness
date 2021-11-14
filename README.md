@@ -205,9 +205,13 @@ While following the MVP model, to meet the user and developer goals, our website
 We have chosen to carry out a very basic linear method of design for this website, and have a layout that is both logical and easy to understand for any user that visits the site. By having multiple pages we can separate quite important information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
 
 <strong>On index.html</strong>: This page will consist of the main website branding, a front-and-center informative video on how to check your breasts in 60 seconds, six real-life stories from a range of people with different backgrounds as well as a callout for the user to gain quick and easy access to the breast cancer review quiz.
+<br>
 <strong>On facts.html</strong>: This page will consist of facts around breast cancer that may not necessarily be well known, it is our hope that these more unusual facts will stick in people's minds and at least get them thinking about breast cancer - thinking about one of these more unusual facts (no matter how random) is still someone thinking about breast cancer, and as long as they're thinking about breast cancer that's someone we have helped to gain more awareness.
+<br>
 <strong>On risks.html</strong>: This page is more educational for users to the site. By raising awareness of the risks of breast cancer, it may help to raise awareness in people who have one or more of these risk factors.
+<br>
 <strong>On symptoms.html</strong>: This page will consist of the symptoms to look out for as in indicator for breast cancer. There are still so many people that put off going to the doctor because they don't think their symptoms are anything to worry about. It is our hope that having this information easily accessible it will encourage people to look our for these symptoms and encourage early detection and diagnosis.
+<br>
 <strong>On quiz.html</strong>: This page will be an interactive activity for the user. Everybody learns in different ways, and it's rare for people to learn purely by reading information on a screen or a piece of paper. By having a learning source that is more interactive, we hope to target those that are more kinesthetic learners.
 
 ### Skeleton
@@ -606,7 +610,7 @@ The questions for the quiz were obtained from the quizes found in the [American 
 
 ## Screenshots
 <img src="assets/readmeimages/indexscreen.png"><br>
-<img src="assets/readmeimages/factsscren.png"><br>
+<img src="assets/readmeimages/factsscreen.png"><br>
 <img src="assets/readmeimages/risksscreen.png"><br>
 <img src="assets/readmeimages/symptomsscreen.png"><br>
 <img src="assets/readmeimages/quizscreen.png"><br>
