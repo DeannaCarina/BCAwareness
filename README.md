@@ -427,18 +427,67 @@ The third section of our testing structure was to ensure that customer all user 
 
 The fourth section of our testing structure for the website was to ensure all code written passes through code validation software with no errors or warnings.
 
+#### HTML Code validation
+
+##### INDEX.HTML
+The below code validation report is from index.html. There were minimal errors found on this page. The main 'errors' were repeated id attributes, images without alt attributes and image elements with height and width attributes that included 'px' at the end of the value. These were rectified by replacing the id attributes with class attributes instead, adding alt attributes to images and removing the px from size attributes of images. <br>
+<img src="assets/readmeimages/w3cindex.png" width="600px"><br>
+
+##### FACTS.HTML
+The below code validation report is from facts.html. There were minimal errors found on this page. The main 'errors' were repeated id attributes, images without alt attributes and image elements with height and width attributes that included 'px' at the end of the value. These were rectified by replacing the id attributes with class attributes instead, adding alt attributes to images and removing the px from size attributes of images. <br>
+<img src="assets/readmeimages/w3cfacts.png" width="600px"><br>
+
+##### RISKS.HTML
+The below code validation report is from risks.html. There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways, as well as errors concerning having a hr element as a child of a ul element, these errors were rectified and the code re-run through the validator.<br>
+<img src="assets/readmeimages/w3crisks.png" width="600px"><br>
+
+##### SYMPTOMS.HTML
+The below code validation report is from symptoms.html. There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways, as well as errors concerning having a hr element as a child of a ul element, these errors were rectified and the code re-run through the validator.<br>
+<img src="assets/readmeimages/w3csymptoms.png" width="600px"><br>
+
+##### QUIZ.HTML
+There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways.There were also warnings concerning multiple hypens within comments, however this was left as having comments within code is best practice to make the code more readable and editable in the future.<br>
+<img src="assets/readmeimages/w3cquiz.png" width="600px"><br>
 
 
+#### CSS Code validation
+
+No errors or warnings were found in the CSS validation process.<br>
+<img src="assets/readmeimages/cssvalidator.png" width="600px"><br>
 
 
+#### JS Code validation
 
+Each of the JavaScript files were run separatly through the JSHint validator:
 
+FACTSSCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/factsscriptjs.png" width="600px"><br>
 
+QUIZ.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/quizjs.png" width="600px"><br>
 
+RISKSCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/riskscriptjs.png" width="600px"><br>
+
+SCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/scriptjs.png" width="600px"><br>
 
 ### Issues Found During Deployment
+
+No issues were found during deployment. The website is hosted through GitHub pages which hosts static web-pages. This process is very straightforward and no problems arose from deployment.
+
 ### Accessibility
+
+All web pages were run through the wave accessibility tool, the only error was from the logo not having an alt attribute in quiz.html, this was rectified before project submission deadline:
+
+<img src="assets/readmeimages/access.png" width="100%"><br>
+
+
 ### Performance Testing
+
+In order to test the performance of the website we used the built-in Chrome DevOps tool: Lighthouse.<br>
+<img src="assets/readmeimages/perftest.png" width="500px"><br>
+
 
 ## Deployment
 A live demo of the website can be found <a href="https://deannacarina.github.io/BCAwareness/" target="_blank">**HERE**</a><br>
