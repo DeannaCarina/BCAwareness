@@ -67,6 +67,10 @@ body {
   background-color: rgba(89, 89, 114, 0.9);
 }
 
+.bg-pink {
+  background-color: rgb(190, 153, 168);
+}
+
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
@@ -110,7 +114,7 @@ nav{
 }
 
 .navbar-brand {
-  font-family:'Satisfy', sans-serif;
+  font-family:'Pacifico', sans-serif;
   font-size: 25px;
   padding-top: 5px;
 }
@@ -128,7 +132,7 @@ text-align: center;
 }
 
 footer {
-    background-color: rgba(89, 89, 114, 0.9);
+    background-color: rgb(89, 89, 114);
     width: 100%;
     /* position: fixed; */
     bottom: 0;
@@ -512,6 +516,19 @@ footer > span > a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* -- 404 -- */
+
+.error-heading{
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+  font-weight: 600;
+  width: 70%;
+  height: 150px;
+  line-height: 150px;
+  margin: auto;
+  font-family: 'Pacifico', sans-serif;
 }
 
 
