@@ -56,7 +56,7 @@ body {
 
 .active {
   border-radius: 10px;
-  background-color: rgb(109, 88, 112, 0.7);
+  background-color: rgb(109, 88, 112, 0.6)!important;
 }
 
 .font-purple {
@@ -480,7 +480,7 @@ footer > span > a:hover {
 }
 
 .risk-content button {
-  background-color: rgba(255,255,255,0.5)!important;
+  background-color: rgba(255,255,255,0.5);
 }
 
 /* -- SYMPTOMS -- */
