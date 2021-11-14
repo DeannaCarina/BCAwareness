@@ -205,9 +205,13 @@ While following the MVP model, to meet the user and developer goals, our website
 We have chosen to carry out a very basic linear method of design for this website, and have a layout that is both logical and easy to understand for any user that visits the site. By having multiple pages we can separate quite important information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
 
 <strong>On index.html</strong>: This page will consist of the main website branding, a front-and-center informative video on how to check your breasts in 60 seconds, six real-life stories from a range of people with different backgrounds as well as a callout for the user to gain quick and easy access to the breast cancer review quiz.
+<br>
 <strong>On facts.html</strong>: This page will consist of facts around breast cancer that may not necessarily be well known, it is our hope that these more unusual facts will stick in people's minds and at least get them thinking about breast cancer - thinking about one of these more unusual facts (no matter how random) is still someone thinking about breast cancer, and as long as they're thinking about breast cancer that's someone we have helped to gain more awareness.
+<br>
 <strong>On risks.html</strong>: This page is more educational for users to the site. By raising awareness of the risks of breast cancer, it may help to raise awareness in people who have one or more of these risk factors.
+<br>
 <strong>On symptoms.html</strong>: This page will consist of the symptoms to look out for as in indicator for breast cancer. There are still so many people that put off going to the doctor because they don't think their symptoms are anything to worry about. It is our hope that having this information easily accessible it will encourage people to look our for these symptoms and encourage early detection and diagnosis.
+<br>
 <strong>On quiz.html</strong>: This page will be an interactive activity for the user. Everybody learns in different ways, and it's rare for people to learn purely by reading information on a screen or a piece of paper. By having a learning source that is more interactive, we hope to target those that are more kinesthetic learners.
 
 ### Skeleton
@@ -427,18 +431,71 @@ The third section of our testing structure was to ensure that customer all user 
 
 The fourth section of our testing structure for the website was to ensure all code written passes through code validation software with no errors or warnings.
 
+#### HTML Code validation
+
+##### INDEX.HTML
+The below code validation report is from index.html. There were minimal errors found on this page. The main 'errors' were repeated id attributes, images without alt attributes and image elements with height and width attributes that included 'px' at the end of the value. These were rectified by replacing the id attributes with class attributes instead, adding alt attributes to images and removing the px from size attributes of images. <br>
+<img src="assets/readmeimages/w3cindex.png" width="600px"><br>
+
+##### FACTS.HTML
+The below code validation report is from facts.html. There were minimal errors found on this page. The main 'errors' were repeated id attributes, images without alt attributes and image elements with height and width attributes that included 'px' at the end of the value. These were rectified by replacing the id attributes with class attributes instead, adding alt attributes to images and removing the px from size attributes of images. <br>
+<img src="assets/readmeimages/w3cfacts.png" width="600px"><br>
+
+##### RISKS.HTML
+The below code validation report is from risks.html. There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways, as well as errors concerning having a hr element as a child of a ul element, these errors were rectified and the code re-run through the validator.<br>
+<img src="assets/readmeimages/w3crisks.png" width="600px"><br>
+
+##### SYMPTOMS.HTML
+The below code validation report is from symptoms.html. There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways, as well as errors concerning having a hr element as a child of a ul element, these errors were rectified and the code re-run through the validator.<br>
+<img src="assets/readmeimages/w3csymptoms.png" width="600px"><br>
+
+##### QUIZ.HTML
+There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways.There were also warnings concerning multiple hypens within comments, however this was left as having comments within code is best practice to make the code more readable and editable in the future.<br>
+<img src="assets/readmeimages/w3cquiz.png" width="600px"><br>
 
 
+#### CSS Code validation
+
+No errors or warnings were found in the CSS validation process.<br>
+<img src="assets/readmeimages/cssvalidator.png" width="600px"><br>
 
 
+#### JS Code validation
 
+Each of the JavaScript files were run separatly through the JSHint validator:
 
+FACTSSCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/factsscriptjs.png" width="600px"><br>
 
+QUIZ.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/quizjs.png" width="600px"><br>
 
+RISKSCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/riskscriptjs.png" width="600px"><br>
+
+SCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
+<img src="assets/readmeimages/scriptjs.png" width="600px"><br>
 
 ### Issues Found During Deployment
+
+No issues were found during deployment. The website is hosted through GitHub pages which hosts static web-pages. This process is very straightforward and no problems arose from deployment.
+
 ### Accessibility
+
+All web pages were run through the wave accessibility tool, the only error was from the logo not having an alt attribute in quiz.html, this was rectified before project submission deadline:
+
+<img src="assets/readmeimages/access.png" width="100%"><br>
+
+
 ### Performance Testing
+
+In order to test the performance of the website we used the built-in Chrome DevOps tool: Lighthouse.<br>
+<img src="assets/readmeimages/perftest.png" width="500px"><br>
+
+
+### Bugs
+While developing the quiz functionality an issue with the last question was found. When the user gets to the last question, they don't get any feedback back of whether they chose the right or wrong answer. This is yet to be fixed.
+
 
 ## Deployment
 A live demo of the website can be found <a href="https://deannacarina.github.io/BCAwareness/" target="_blank">**HERE**</a><br>
@@ -512,7 +569,7 @@ If you want to make changes to the repo without affecting it, you can make a cop
 </ol>
 
 ## Research
-### DEFINITION:
+
 ### FACTS:
 
 The information contained within the facts.html page has been taken from the following sources:
@@ -536,15 +593,24 @@ Information contained within the risks.html page has been taken from the followi
 * [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/prevention.htm)
 
 ### WHY IS THE WEB APPLICATION NEEDED?
+There is always a continuing need to raise awarenes of breast cancer. According to <a href="https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/breast-cancer">Cancer Research UK</a> a massive 23% of all breast cancers are preventable. The only way to reduce this number is by raising awareness by any means possible. A diagnosis of any type of cancer is one diagnosis too many, and we hope that in some small way our web-app can help reduce these numbers. If one person has learnt one new thing from our website - we've achieved what we set out to.
 
 ## Credits
+
 ### Code
 
-**Facts.html**
 
+**facts.html**
 Accordion from [w3schools](https://www.w3schools.com/howto/howto_js_accordion.asp)
 
+**quiz.html**
+The code used to create the quiz is based on [this tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1124s&ab_channel=WebDevSimplified) from WebDevSimplified
+
+
 ### Content
+
+The questions for the quiz were obtained from the quizes found in the [American Cancer Society](https://www.cancer.org/cancer/breast-cancer/breast-cancer-quiz.html) and in the [University of Rochester Medical Center](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentTypeID=40&ContentID=BreastCancerCancerBrQuiz) webpages.
+
 ### Images
 
 **Facts.html**
@@ -552,9 +618,37 @@ On facts.html, the background image of the tulips is from Katherine Biggs' mum. 
 
 The cross-section image of the breast was taken from [Wikipedia](https://en.wikipedia.org/wiki/Breast#Breast_cancer).
 
+Image (and story excerpt) for Laura in index.html: <a href="https://news.cancerresearchuk.org/2015/03/26/cancer-drugs-one-size-doesnt-fit-all-lauras-story/?_gl=1*na3lxk*_gcl_aw*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_ga*NjEzOTMxNDg0LjE2MzU3Nzc2ODg.*_ga_58736Z2GNN*MTYzNjcyMjc0OS42LjEuMTYzNjcyMjc3MC4zOQ..&_ga=2.44201127.2051762108.1636722750-613931484.1635777688&_gac=1.95694446.1635777700.CjwKCAjwoP6LBhBlEiwAvCcthAlFyQDbQrVSlRa_YZj1O-EvLuS5M2KkR2SAPwB4i6KgaUrEhM9nRxoCzFEQAvD_BwE">HERE</a>
+
+Image (and story excerpt) for Richard in index.html:https://breastcancernow.org/about-us/news-personal-stories/going-through-breast-cancer-treatment-man-intimidating-times
+
+Image (and story excerpt) for Amy in index.html: <a href="https://news.cancerresearchuk.org/2016/01/14/a-message-of-love-and-support-is-a-beautiful-thing-amys-story/?_gl=1*1pr7thw*_gcl_aw*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_ga*NjEzOTMxNDg0LjE2MzU3Nzc2ODg.*_ga_58736Z2GNN*MTYzNjczMDQyNS43LjEuMTYzNjczMDQyNi41OQ..&_ga=2.242368129.2051762108.1636722750-613931484.1635777688&_gac=1.87762666.1635777700.CjwKCAjwoP6LBhBlEiwAvCcthAlFyQDbQrVSlRa_YZj1O-EvLuS5M2KkR2SAPwB4i6KgaUrEhM9nRxoCzFEQAvD_BwE">HERE</a>
+
+Image (and story excerpt) for Beverly in index.html: https://www.today.com/health/trans-women-breast-cancer-woman-shares-rare-diagnosis-t193360
+
+Image (audio and story excerpt) for Ira in index.html: https://www.breastcancer.org/community/podcasts/trans-man-brca1-mutation-20201120
+
+Image (and story excerpt) for Jennifer in index.html: https://breastcancernow.org/about-us/news-personal-stories/i-used-think-i-was-victim-secondary-breast-cancer-now-i-see-myself-thriving
+
+
 ### Video
+
+Background video for large screensizes in index.html: https://mixkit.co/free-stock-video/holding-a-breast-cancer-ribbon-in-her-hands-27824/
+
+Background video for small screensizes in index.html: https://www.pexels.com/video/a-person-holding-a-ribbon-6801289/
+
+Breast checking video in index.html: https://www.pexels.com/video/a-person-holding-a-ribbon-6801289/
+
+Video in symptoms.html: https://www.youtube.com/watch?v=TpUAsdZiDuM
+
 ### Acknowledgements
 
 ## Screenshots
+<img src="assets/readmeimages/indexscreen.png"><br>
+<img src="assets/readmeimages/factsscreen.png"><br>
+<img src="assets/readmeimages/risksscreen.png"><br>
+<img src="assets/readmeimages/symptomsscreen.png"><br>
+<img src="assets/readmeimages/quizscreen.png"><br>
+<img src="assets/readmeimages/404screen.png">
 
 ## References
