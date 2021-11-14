@@ -56,7 +56,7 @@ body {
 
 .active {
   border-radius: 10px;
-  background-color: rgb(109, 88, 112, 0.7);
+  background-color: rgb(109, 88, 112, 0.6)!important;
 }
 
 .font-purple {
@@ -65,6 +65,10 @@ body {
   
 .bg-purple {
   background-color: rgba(89, 89, 114, 0.9);
+}
+
+.bg-pink {
+  background-color: rgb(190, 153, 168);
 }
 
 /* ------HERO IMAGE FACTS.html------ */
@@ -112,13 +116,18 @@ nav{
 .navbar-brand, .nav-link{
     color: white;
 }
-
+#footer-links > a:hover{
+  color: pink;
+}
+#footer-socials > a > i:hover {
+  color: pink;
+}
 .nav-link:hover, .navbar-brand:hover{
     color: pink;
 }
 
 .navbar-brand {
-  font-family:'Satisfy', sans-serif;
+  font-family:'Pacifico', sans-serif;
   font-size: 25px;
   padding-top: 5px;
 }
@@ -136,7 +145,7 @@ text-align: center;
 }
 
 footer {
-    background-color: rgba(89, 89, 114, 0.9);
+    background-color: rgb(89, 89, 114);
     width: 100%;
     /* position: fixed; */
     bottom: 0;
@@ -188,15 +197,8 @@ footer > span > a > i {
   margin-left: auto!important;
 }
 
-footer > span > a > i:hover {
-    color: pink;
-}
-
 footer > span > a {
     color: white;
-}
-footer > span > a:hover {
-    color: pink;
 }
 
 .footer-span{
@@ -484,7 +486,7 @@ footer > span > a:hover {
 }
 
 .risk-content button {
-  background-color: rgba(255,255,255,0.5)!important;
+  background-color: rgba(255,255,255,0.5);
 }
 
 /* -- SYMPTOMS -- */
@@ -520,6 +522,19 @@ footer > span > a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/* -- 404 -- */
+
+.error-heading{
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+  font-weight: 600;
+  width: 70%;
+  height: 150px;
+  line-height: 150px;
+  margin: auto;
+  font-family: 'Pacifico', sans-serif;
 }
 
 
