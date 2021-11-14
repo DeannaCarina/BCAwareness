@@ -348,11 +348,11 @@ footer > span > a {
 }
 
 .index-container{
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.541);
   padding-top: 100px;
-  margin-bottom: -100px;
+  /* margin-bottom: -100px; */
 }
 
 
@@ -429,15 +429,18 @@ footer > span > a {
   font-weight: 600;
   background-color: rgba(97, 95, 122, 0.418);
   width: 70%;
-  height: 150px;
-  line-height: 150px;
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
   border-radius: 50px;
   margin: auto;
 }
 
 #index-here{
   background-color: pink;
-  padding: 5px;
+  padding: 2px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 10px;
@@ -580,10 +583,6 @@ footer > span > a {
   #symptoms-video {
     margin: 10% 0 0;
   }
-
-  .index-callout{
-    line-height: 70px;
-  }
 }
 
 @media screen and (max-width: 620px){
@@ -591,6 +590,7 @@ footer > span > a {
     font-size: 2em;
     height: 100px;
     line-height: 100px;
+    border-radius: 20px;
   }
 }
 
