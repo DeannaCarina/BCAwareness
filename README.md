@@ -1,7 +1,7 @@
 
 <img src="assets/readmeimages/logo.png" width="300px">
 
-# The Breast Review
+<a href="https://deannacarina.github.io/BCAwareness/"><h1>The Breast Review</h1></a>
 Hackathon Project in partnership with IT Labs. Deadline Monday 15th November 2022 @ 3pm.
 
 ## Contents
@@ -46,8 +46,9 @@ The World Health Organisation (WHO) Objectives is to reduce global breast cancer
 <br>
 We created this website with HTML and CSS with the use of other technologies.
 There are also contact links at the bottom of all pages with other resourceful links/sites.
+
 ### Demo
-(Insert image or gif of website in action here)
+<img src="assets/readmeimages/responsive.png" width="700px">
 
 ## Collaborators
 <ul>
@@ -201,37 +202,151 @@ While following the MVP model, to meet the user and developer goals, our website
 
 ### Structure
 
-We have chosen to carry out a very basic linear method of design for this website, and have a layout that is both logical and easy to understand for any user that visits the site. By having multiple page we can separate quite important information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
+We have chosen to carry out a very basic linear method of design for this website, and have a layout that is both logical and easy to understand for any user that visits the site. By having multiple pages we can separate quite important information into logical sections to make it easier for the user to find what they are looking for. The navigation bar at the top of all of the pages allows the user to easily navigate to the page of the website they are most interested in.
 
-<strong>On index.html</strong>: 
-<strong>On facts.html</strong>: 
-<strong>On risks.html</strong>: 
-<strong>On symptoms.html</strong>: 
-<strong>On quiz.html</strong>: 
+<strong>On index.html</strong>: This page will consist of the main website branding, a front-and-center informative video on how to check your breasts in 60 seconds, six real-life stories from a range of people with different backgrounds as well as a callout for the user to gain quick and easy access to the breast cancer review quiz.
+<strong>On facts.html</strong>: This page will consist of facts around breast cancer that may not necessarily be well known, it is our hope that these more unusual facts will stick in people's minds and at least get them thinking about breast cancer - thinking about one of these more unusual facts (no matter how random) is still someone thinking about breast cancer, and as long as they're thinking about breast cancer that's someone we have helped to gain more awareness.
+<strong>On risks.html</strong>: This page is more educational for users to the site. By raising awareness of the risks of breast cancer, it may help to raise awareness in people who have one or more of these risk factors.
+<strong>On symptoms.html</strong>: This page will consist of the symptoms to look out for as in indicator for breast cancer. There are still so many people that put off going to the doctor because they don't think their symptoms are anything to worry about. It is our hope that having this information easily accessible it will encourage people to look our for these symptoms and encourage early detection and diagnosis.
+<strong>On quiz.html</strong>: This page will be an interactive activity for the user. Everybody learns in different ways, and it's rare for people to learn purely by reading information on a screen or a piece of paper. By having a learning source that is more interactive, we hope to target those that are more kinesthetic learners.
 
 ### Skeleton
-<img src="assets/readmeimages/wireframeindex.png" width="700px"><br>
-<img src="assets/readmeimages/wireframefacts.png" width="700px"><br>
-<img src="assets/readmeimages/wireframerisks.png" width="700px"><br>
-<img src="assets/readmeimages/wireframesymptoms.png" width="700px"><br>
-<img src="assets/readmeimages/wireframequiz.png" width="700px">
+
+The wireframes for <em>The Breast Review</em> website were made with the <a href="https://balsamiq.com/" target="_blank">Balsamiq</a> Desktop Applictaion, they can be found by viewing the images below. We created the wireframes for both mobile and desktop versions. As the trend for mobile browser usage has been on an upwards trend for the last 10 years in Europe culminating in a crossover of hardware usage in the recent year, it could be assumed that these trends will continue and result in users opting more and more for a mobile browser instead of a desktop.<br>
+
+index.html<br>
+<img src="assets/readmeimages/wireframeindex.png" width="700px"><br><br>
+facts.html<br>
+<img src="assets/readmeimages/wireframefacts.png" width="700px"><br><br>
+risks.html<br>
+<img src="assets/readmeimages/wireframerisks.png" width="700px"><br><br>
+symptoms.html<br>
+<img src="assets/readmeimages/wireframesymptoms.png" width="700px"><br><br>
+quiz.html<br>
+<img src="assets/readmeimages/wireframequiz.png" width="700px"><br>
+
+The wireframes were created during the website's initial desgin process, as such there are small changes between the layout of the wireframes and the final layout/design of the finished website.
 
 ### Surface
 #### Typography
+
+We used <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> to find the typography that we felt would fit best for the website. We wanted to use a completely different font for the main titles and the headers to the main text body of the website to distinguish between headers and main body, but also to show the importance of different sections and make it obvious for the user when a new section is starting. We chose to use the font 'Satisfy' (seen below) as the cursive writing and free-flow design of it makes it feel more relaxed and feminine, which we felt was important for the site - although we have tried to stay fairly gender neutral, there is no denying that the main target for this website is women as they account for the majority of breast cancer diagnoses and fatalities.<br>
+<img src="assets/readmeimages/satisfy.png" alt="Font used for headings" width="300px"><br>
+
+The font we used for the main text body of the website was 'Pacifico' as this font is easy to read which is needed when there is large amounts of information to be read and absorbed by users, it has a modern feel, and is a popular font for many websites. The back-up font is 'Sans-Serif' just in case the font import link fails.
+
+
 #### Colour Scheme
+Throughout the site, we have tried to stay fairly gender neutral with the colour scheme, showing different elements in pink as well as a grey-blue colour. The universal symbol for breast cancer awareness is a pink ribbon, and the main demographic of users to the site will be female, so it made sense to us to have elements that are pink in majority. However, for elements such as the nav bar and footer we have chosen a more gender-neutral grey-blue, as (although it is rare) there are cases of male breast cancer and breast cancers in people who have transitioned from the gender they were assigned at birth. We have found these colour to be soft and none-offensive as well highly contrastable to the text that overlays them.
+
 #### Icons
+<em>The Breast Review</em> logo was handmade by the team "Mammary Mates" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself consists of the website's brand letters (TBR) as well as a graphic of a hand underneath a curve - to represent a breast. The logo follows the colour scheme of the website and gives an obvious feel as to the content of the website.
+
 #### Images (if used)
+All images on the website were taken from pixabay, except for the images of the individual's who's stories are on the home page - these come from the stories that are available online via the links that are available in the story excerpts.
+
 #### Videos (if used)
+The background videos used in index.html have been taken from an open source website called Mixkit. We stored these in an online media content store (cloudinary) to ensure quick load times.
+The breast checking video came from youtube and can be found <a href="https://www.youtube.com/watch?v=lvOp16CbWwg&t=1s" target="_blank">HERE</a>
 
 ## Technologies
+
 ### Languages
+<ol>
+    <li><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML</a>
+        <ul><li>The main structure of the website</li></ul>
+    </li>
+    <li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</a>
+        <ul><li>For the design of the site</li></ul>
+    </li>
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+        <ul><li>For the quiz in quiz.html</li>
+        <li>For the hamburger menu on all pages at small screen sizes</li></ul>
+    </li>
+    <li>Limited <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python</a>
+        <ul><li>For hosting a local server during for testing</li></ul>
+    </li>
+    <li><a href="https://www.markdownguide.org/" target="_blank">Markdown</a>
+        <ul><li>For the content and structure of the README.md</li></ul>
+    </li>
+    <li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank">Bash</a>
+        <ul><li>For the CLI of gitpod.io environment and commands for depoloyment to GitHub</li></ul>
+    </li>
+</ol>   
+
 ### Version Control
-### Applications
-### Frameworks & Libraries & Programmes
+<ol>
+    <li><a href="https://github.com/" target="_blank">Git & Github</a>
+        <ul><li>For the hosting and version control of the website as well as storage for media content on the website</li></ul>
+    </li>
+    <li><a href="https://www.gitpod.io/" target="_blank">Gitpod</a>
+        <ul><li>The development environment used for writing the code for the website</li></ul>
+    </li>
+</ol>
+
+### Applications    
+<ol>
+   <li><a href="https://balsamiq.com/" target="_blank">Balsamiq (Desktop)</a>
+        <ul><li>For the creation of wireframes</li></ul>
+    </li>
+    <li><a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio (Desktop)</a>
+        <ul><li>For testing out ideas without interfering with code for website</li></ul>
+    </li>
+    <li><a href="https://slack.com/intl/en-gb/" target="_blank">Slack (Desktop)</a>
+        <ul><li>For communicating with peers and troubleshooting problems with the different environments used during the course and coding.</li></ul>
+    </li>
+</ol>
+    
+### Frameworks, Libraries and Programs 
+<ol>  
+    <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Developer Tools</a>
+        <ul><li>To test the responsiveness of the website at varying screen sizes</li></ul>
+    </li>
+    <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+        <ul><li>Used to import the 'Satisfy' and 'Lato' fonts used throughout the website</li></ul>
+    </li>
+    <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+        <ul><li>Used on all pages throughout the website to enhance UX and design, also for the tab icon</li></ul>
+    </li>
+    <li><a href="https://favicon.io/" target="_blank">Favicon.io</a>
+        <ul><li>Used to create the tab icon from an original PNG file</li></ul>
+    </li>
+    <li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a>
+        <ul><li>To test and search for errors in the HTML code</li></ul>
+    </li>
+    <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">Jigsaw W3C CSS Validation Service</a>
+        <ul><li>To test and search for errors in the CSS code</li></ul>
+    </li>
+    <li><a href="http://ami.responsivedesign.is/" target="_blank">Am I responsive</a>
+        <ul><li>To show the responsiveness of the website on different screen sizes at the same time</li></ul>
+    </li>
+    <li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a>
+        <ul><li>To ensure compliance with accessibility</li></ul>
+    </li>
+    <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+        <ul><li>For the general layout of the website, the navbar and the accordian elements throughout the site</li></ul>
+    </li>
+</ol><br>  
+
 
 ## Features
 ### Implemented Features
+The main features to be implemented in the website were determined in the Strategy plane of the UX section. We were able to recognise which features were more likely to have a positive impact on the website and implement those, while staying within the time constraints we had and staying within our own coding knowledge and comfort.
+<ul>
+    <li><em>Obvious role of the website demonstrated with hero image/video and capture text</em> - We have tried to make the landing page (catering for all screen sizes) as obvious as possible to identify the role and purpose of the website. The background video itself shows a person holding a pink ribbon which is folded to imitate the breast cancer awareness symbol; this identifies to the customer that the website is likely to be about some form of breast cancer awareness. The cover text over the video "The Breast Review" further identifies to the customer the role of the website.</li>
+    <li><em>Simple design with straightforward navigation to make it easier for the user to understand where to find information</em> - The website has a simple design throughout, with each page having it's own title and each page having separate sections. The font and colours throughout are all the same adding continuity and familiarity to the website - improving user experience. These elements were all styled using CSS with psuedo classes for hover actions to enable the customer to visualise a transitioning style.</li>
+    <li><em>Relevant and relatable stories of people's experiences with breast cancer</em> - These are situated on the main page of the website (index.html), we have included stories from people from all walks of life (two young women that are below the average age for a diagnosis of breast cancer, an older genteman, a male-to-female transgendered person, a female-to-male transgendered person and one person who is from the 'average' demographic from someone that has been diagnosed with breast cancer.</li>
+    <li><em>Facts from reputable sources explaining different things about breast cancer</em> - The majority of the facts and information found on the website has come from Cancer Research UK. This amazing charity had done amazing things including peer reviewed research which allows us to share up-to-date and accurate information with the site users.</li>
+    <li><em>A simple quiz for site users to interact with to test their knowledge around breast cancer and it's awareness</em> - </li>
+    <li><em>Videos situated at opportune moments throughout the site to help raise awareness of breast cancer</em> - As soon as anyone navigates to the site they are greeted with a quick 60 second video on how to check for breast cancer. There are also background videos in index.html for varying screensizes related to breast cancer awareness.</li>
+    <li><em>A fairly gender neutral site in terms of colour scheme to encourage everybody to stay on the site as this topic affects everybody</em> - Please see surface section of UX for explanation on colour scheme and why we chose certain colours.</li>
+</ul>
+
 ### Features Left to Implement
+<ul>
+    <li><em>A news api to have updated articles on breast cancer related topics</em> - We decided to leave this out due to time constraints and the extreme mix in coding abilities throughout our team. To reduce the risk of segregating team members, we chose to stick to the main trinity of programming languages (HTML, CSS and JS). However at a future time there could be the potential to add a news API to the website to update periodically for the user to be continually learning about new breast cancer related stories and articles.</li>
+    <li><em>A site user forum for anyone affected by breast cancer to connect with each other and share their journeys</em> - We decided to leave this out due to time constraints and the extreme mix in coding abilities throughout our team. To reduce the risk of segregating team members, we chose to stick to the main trinity of programming languages (HTML, CSS and JS). However at a future time there could be the potential to add a forum feature by using django and it's user authorisation feature.</li>
+</ul>
 
 ## Testing
 ### Functionality
@@ -243,7 +358,7 @@ We have chosen to carry out a very basic linear method of design for this websit
 ### Performance Testing
 
 ## Deployment
-A live demo of the website can be found <a href="#" target="_blank">**HERE**</a><br>
+A live demo of the website can be found <a href="https://deannacarina.github.io/BCAwareness/" target="_blank">**HERE**</a><br>
 
 ### Project Creation
 This project was created on GitHub and Edited in GitPod by carrying out the following:
@@ -271,7 +386,7 @@ There are many ways to deploy the project locally on your own device. The ways w
 If you want to make changes to the repo without affecting it, you can make a copy of it by 'Forking' it. This will make sure that the original repo remains unchanged.
 <ol>
     <li>Log in to your GitHub account</li>
-    <li>Navigate to the repository <a href="#"><strong>HERE</strong></a></li>
+    <li>Navigate to the repository <a href="https://github.com/DeannaCarina/BCAwareness"><strong>HERE</strong></a></li>
     <li>Select the 'Fork' button in the top right corner of the page (under your account image)</li>
     <li>The repo has now been copied into your own repos and you can work on it in your chosen IDE</li>
     <li>If you have any suggestions to make regards to the code to make the site better, you can put in a pull request</li>
@@ -281,7 +396,7 @@ If you want to make changes to the repo without affecting it, you can make a cop
 #### Cloning the repo with GitPod
 <ol>
     <li>Log in to your GitHub account</li>
-    <li>Navigate to the Repository <a href="#"><strong>HERE</strong></a></li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/BCAwareness"><strong>HERE</strong></a></li>
     <li>Select the 'Code' button above the file list on the right had side</li>
     <li>Ensure HTTPS is selected and click the clipboard on the right of the URL to copy it</li>
     <li>Open a new workspace in GitPod</li>
@@ -294,7 +409,7 @@ If you want to make changes to the repo without affecting it, you can make a cop
 #### Github Desktop
 <ol>
     <li>Log in to your GitHub account</li>
-    <li>Navigate to the Repository <a href="#"><strong>HERE</strong></a></li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/BCAwareness"><strong>HERE</strong></a></li>
     <li>Select the 'Code' button above the file list on the right had side</li>
     <li>Select 'Open with GitHub Desktop'</li>
     <li>If you haven't already installed GitHub desktop application - you will need to follow the relevant steps to do this</li>
@@ -305,7 +420,7 @@ If you want to make changes to the repo without affecting it, you can make a cop
 #### Download and extract the zip directly from GitHub
 <ol>
     <li>Log in to your GitHub account</li>
-    <li>Navigate to the Repository <a href="#"><strong>HERE</strong></a></li>
+    <li>Navigate to the Repository <a href="https://github.com/DeannaCarina/BCAwareness"><strong>HERE</strong></a></li>
     <li>Select the 'Code' button above the file list on the right had side</li>
     <li>Select 'Download Zip'</li>
     <li>Once you have the Zip downloaded, open it with your prefered file decompression software</li>
@@ -331,6 +446,11 @@ The information contained within the facts.html page has been taken from the fol
 
 * [Information about second cancers from livestrong.org](https://www.livestrong.org/we-can-help/healthy-living-after-treatment/second-cancers)
 
+### RISKS:
+
+Information contained within the risks.html page has been taken from the following source:
+
+* [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/prevention.htm)
 
 ### WHY IS THE WEB APPLICATION NEEDED?
 
