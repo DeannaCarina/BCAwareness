@@ -569,12 +569,14 @@ If you want to make changes to the repo without affecting it, you can make a cop
 </ol>
 
 ## Research
-### DEFINITION:
+
 ### FACTS:
 
 The information contained within the facts.html page has been taken from the following sources:
 
 * [8 Interesting Facts About Breast Cancer on roche.com](https://www.roche.com/research_and_development/what_we_are_working_on/oncology/8-facts-about-breast-cancer.htm#fact_8)
+
+* [What is breast cancer](https://www.cdc.gov/cancer/breast/basic_info/what-is-breast-cancer.htm)
 
 * [Statistics about breast cancer from the World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/breast-cancer)
 
@@ -593,19 +595,54 @@ Information contained within the risks.html page has been taken from the followi
 * [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/prevention.htm)
 
 ### WHY IS THE WEB APPLICATION NEEDED?
+There is always a continuing need to raise awarenes of breast cancer. According to <a href="https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/breast-cancer">Cancer Research UK</a> a massive 23% of all breast cancers are preventable. The only way to reduce this number is by raising awareness by any means possible. A diagnosis of any type of cancer is one diagnosis too many, and we hope that in some small way our web-app can help reduce these numbers. If one person has learnt one new thing from our website - we've achieved what we set out to.
 
 ## Credits
 
 ### Code
 
+
+**facts.html**
+Accordion from [w3schools](https://www.w3schools.com/howto/howto_js_accordion.asp)
+
+**quiz.html**
 The code used to create the quiz is based on [this tutorial](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1124s&ab_channel=WebDevSimplified) from WebDevSimplified
+
 
 ### Content
 
 The questions for the quiz were obtained from the quizes found in the [American Cancer Society](https://www.cancer.org/cancer/breast-cancer/breast-cancer-quiz.html) and in the [University of Rochester Medical Center](https://www.urmc.rochester.edu/encyclopedia/content.aspx?ContentTypeID=40&ContentID=BreastCancerCancerBrQuiz) webpages.
 
 ### Images
+
+**Facts.html**
+On facts.html, the background image of the tulips is from Katherine Biggs' mum.  She is an amateur photgrapher and you can see more of her work [here on Pixabay](https://pixabay.com/users/babyboomer100-3801748/).  Whilst Katherine wouldn't necessarily use one of her mum's images on a website, her mum sent her this image because it was one she took whilst she had breast cancer.
+
+The cross-section image of the breast was taken from [Wikipedia](https://en.wikipedia.org/wiki/Breast#Breast_cancer).
+
+Image (and story excerpt) for Laura in index.html: <a href="https://news.cancerresearchuk.org/2015/03/26/cancer-drugs-one-size-doesnt-fit-all-lauras-story/?_gl=1*na3lxk*_gcl_aw*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_ga*NjEzOTMxNDg0LjE2MzU3Nzc2ODg.*_ga_58736Z2GNN*MTYzNjcyMjc0OS42LjEuMTYzNjcyMjc3MC4zOQ..&_ga=2.44201127.2051762108.1636722750-613931484.1635777688&_gac=1.95694446.1635777700.CjwKCAjwoP6LBhBlEiwAvCcthAlFyQDbQrVSlRa_YZj1O-EvLuS5M2KkR2SAPwB4i6KgaUrEhM9nRxoCzFEQAvD_BwE">HERE</a>
+
+Image (and story excerpt) for Richard in index.html:https://breastcancernow.org/about-us/news-personal-stories/going-through-breast-cancer-treatment-man-intimidating-times
+
+Image (and story excerpt) for Amy in index.html: <a href="https://news.cancerresearchuk.org/2016/01/14/a-message-of-love-and-support-is-a-beautiful-thing-amys-story/?_gl=1*1pr7thw*_gcl_aw*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2MzU3Nzc2ODcuQ2p3S0NBandvUDZMQmhCbEVpd0F2Q2N0aEFsRnlRRGJRclZTbFJhX1laajFPLUV2THVTNU0yS2tSMlNBUHdCNGk2S2dhVXJFaE05blJ4b0N6RkVRQXZEX0J3RQ..*_ga*NjEzOTMxNDg0LjE2MzU3Nzc2ODg.*_ga_58736Z2GNN*MTYzNjczMDQyNS43LjEuMTYzNjczMDQyNi41OQ..&_ga=2.242368129.2051762108.1636722750-613931484.1635777688&_gac=1.87762666.1635777700.CjwKCAjwoP6LBhBlEiwAvCcthAlFyQDbQrVSlRa_YZj1O-EvLuS5M2KkR2SAPwB4i6KgaUrEhM9nRxoCzFEQAvD_BwE">HERE</a>
+
+Image (and story excerpt) for Beverly in index.html: https://www.today.com/health/trans-women-breast-cancer-woman-shares-rare-diagnosis-t193360
+
+Image (audio and story excerpt) for Ira in index.html: https://www.breastcancer.org/community/podcasts/trans-man-brca1-mutation-20201120
+
+Image (and story excerpt) for Jennifer in index.html: https://breastcancernow.org/about-us/news-personal-stories/i-used-think-i-was-victim-secondary-breast-cancer-now-i-see-myself-thriving
+
+
 ### Video
+
+Background video for large screensizes in index.html: https://mixkit.co/free-stock-video/holding-a-breast-cancer-ribbon-in-her-hands-27824/
+
+Background video for small screensizes in index.html: https://www.pexels.com/video/a-person-holding-a-ribbon-6801289/
+
+Breast checking video in index.html: https://www.pexels.com/video/a-person-holding-a-ribbon-6801289/
+
+Video in symptoms.html: https://www.youtube.com/watch?v=TpUAsdZiDuM
+
 ### Acknowledgements
 
 ## Screenshots
