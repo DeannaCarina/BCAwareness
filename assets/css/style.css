@@ -651,6 +651,75 @@ button[type="submit"]{
 }
 
 
+/* -- SUPPORT --*/
+
+.support-container{
+  height: auto;
+  padding-bottom: 300px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.541);
+  padding-top: 100px;
+}
+
+.support-heading{
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-weight: 600;
+  background-color: rgba(97, 95, 122, 0.418);
+  width: 70%;
+  padding: 20px;
+  border-radius: 50px;
+  margin: auto;
+  font-family: 'Pacifico', sans-serif;
+}
+
+.support-card{
+  width: 300px;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.664);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.support-title{
+  font-family: 'satisfy', sans-serif;
+}
+
+.support-logo{
+  width: 150px;
+  margin: 10px;
+}
+
+.support-contact{
+  margin-top: 30px;
+}
+
+.support-contact > p > i{
+  color:rgb(210, 98, 224);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.support-contact > p > a{
+  color:rgb(111, 36, 121);
+  text-decoration: none;
+}
+
+.support-contact > p > a:hover{
+  color:rgb(240, 126, 255);
+  text-decoration: underline;
+}
+
+.support-footer{
+  position: fixed;
+  bottom: 0;
+}
+
 /* -- MEDIA QUERIES --*/
 
 @media screen and (max-width: 1400px){
@@ -697,6 +766,12 @@ button[type="submit"]{
 
   #symptoms-video {
     margin: 10% 0 0;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .support-heading{
+    font-size: 1.5em;
   }
 }
 
