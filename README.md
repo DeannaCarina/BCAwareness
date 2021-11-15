@@ -52,13 +52,14 @@ There are also contact links at the bottom of all pages with other resourceful l
 
 ## Collaborators
 <ul>
-    <li>Hideo Nishimura</li>
-    <li>Kike Bello</li>
-    <li>Fernanda G</li>
-    <li>Katherine Biggs</li>
-    <li>Deanna Sale</li>
+    <li>[Hideo Nishimura](https://github.com/Hidnish)</li>
+    <li>[Kike Bello](https://github.com/kiksgold)</li>
+    <li>[Fernanda G](https://github.com/fernandagil)</li>
+    <li>[Katherine Biggs](https://github.com/Kat632)</li>
+    <li>[Deanna Sale](https://github.com/DeannaCarina)</li>
 </ul>
 Project Facilitator: Elvira Shorko
+Thank you Elvira. for being our facilitator. She was there for us to make sure we stayed focused on our tasks. She was happy to give us direction and discuss ideas. She was there for us when we had issues & checked in with us for progress updates. Without her, we couldn't have done it, thank you!!
 
 ## UX
 ### Strategy

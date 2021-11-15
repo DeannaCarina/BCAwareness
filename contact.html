@@ -72,14 +72,11 @@
                     <h5 class="uppercase text-center">Please use the form below.</h5>
                 </div>
                 <div class="center-form">
-                    <form class="contact-form blur" onsubmit="return sendMail(this);">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address"
-                            required />
-                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
-                            required />
-                        <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message"
-                            required></textarea>
+                    <form class="contact-form" onsubmit="return sendMail(this);" method="POST">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required/>
+                        <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary" id="contact-button">Send 
