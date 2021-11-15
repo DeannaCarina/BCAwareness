@@ -82,6 +82,7 @@ The graphic below shows all of the potential pages and the content within that w
     <li>To be a place for those affected by breast cancer to read other people's experiences and stories</li>
     <li>To be a fun and positive experience when most experiences surrounding breast cancer are scary and upsetting</li>
     <li>To be a stepping stone for individuals who want to learn more by supplying further reading with external links</li>
+    <li>To be a stepping stone for site users to access external resources and helplines</li>
 </ol>
 
 #### Target Audience
@@ -223,6 +224,8 @@ We have chosen to carry out a very basic linear method of design for this websit
 <strong>On quiz.html</strong>: This page will be an interactive activity for the user. Everybody learns in different ways, and it's rare for people to learn purely by reading information on a screen or a piece of paper. By having a learning source that is more interactive, we hope to target those that are more kinesthetic learners.
 <br>
 <strong>On contact.html</strong>: This page will be a standard contact form for the user to be able to contact site admin if needed.
+<br>
+<strong>On Support.html</strong>: This page will consist of a number of external contact cards for site users to use to be able to find external resources and help.
 
 ### Skeleton
 
@@ -239,7 +242,9 @@ symptoms.html<br>
 quiz.html<br>
 <img src="assets/readmeimages/wireframequiz.png" width="700px"><br><br>
 contact.html<br>
-<img src="assets/readmeimages/contacthtml.png" width="700px"><br>
+<img src="assets/readmeimages/contacthtml.png" width="700px"><br><br>
+contact.html<br>
+<img src="assets/readmeimages/wireframesupport.png" width="700px"><br>
 
 The wireframes were created during the website's initial desgin process, as such there are small changes between the layout of the wireframes and the final layout/design of the finished website.
 
@@ -256,13 +261,13 @@ The font we used for the main text body of the website was 'Pacifico' as this fo
 Throughout the site, we have tried to stay fairly gender neutral with the colour scheme, showing different elements in pink as well as a grey-blue colour. The universal symbol for breast cancer awareness is a pink ribbon, and the main demographic of users to the site will be female, so it made sense to us to have elements that are pink in majority. However, for elements such as the nav bar and footer we have chosen a more gender-neutral grey-blue, as (although it is rare) there are cases of male breast cancer and breast cancers in people who have transitioned from the gender they were assigned at birth. We have found these colour to be soft and none-offensive as well highly contrastable to the text that overlays them.
 
 #### Icons
-<em>The Breast Review</em> logo was handmade by the team "Mammary Mates" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself consists of the website's brand letters (TBR) as well as a graphic of a hand underneath a curve - to represent a breast. The logo follows the colour scheme of the website and gives an obvious feel as to the content of the website.
+<em>The Breast Review</em> logo was handmade by the team "Mammary Mates" during the website development process. We felt this was a very important aspect to get done quickly as this would give us a feel for how the website would take shape. The logo itself consists of the website's brand letters (TBR) as well as a graphic of a hand underneath a curve - to represent a breast. The logo follows the colour scheme of the website and gives an obvious feel as to the content of the website. The logos on support.html for the contact cards were taken from the websites that the cards represent.
 
 #### Images (if used)
 All images on the website were taken from pixabay, except for the images of the individual's who's stories are on the home page - these come from the stories that are available online via the links that are available in the story excerpts.
 
 #### Videos (if used)
-The background videos used in index.html have been taken from an open source website called Mixkit. We stored these in an online media content store (cloudinary) to ensure quick load times.
+The background videos used in index.html have been taken from an open source websites, one called Mixkit and the other called pexels. We stored these in an online media content store (cloudinary) to ensure quick load times.
 The breast checking video came from youtube and can be found <a href="https://www.youtube.com/watch?v=lvOp16CbWwg&t=1s" target="_blank">HERE</a>
 
 ## Technologies
@@ -360,6 +365,7 @@ The main features to be implemented in the website were determined in the Strate
     <li><em>Videos situated at opportune moments throughout the site to help raise awareness of breast cancer</em> - As soon as anyone navigates to the site they are greeted with a quick 60 second video on how to check for breast cancer. There are also background videos in index.html for varying screensizes related to breast cancer awareness.</li>
     <li><em>A fairly gender neutral site in terms of colour scheme to encourage everybody to stay on the site as this topic affects everybody</em> - Please see surface section of UX for explanation on colour scheme and why we chose certain colours.</li>
     <li><em>A contact form for users to be able to contact site admin if needed</em> - Thankfully we had enough time to implement this feature. It allows site visitors to be able to contact the site admin for any reason at all, whether it be a technical or personal issue that the user may have.</li>
+    <li><em>A support page for users to be able to find external resources and help</em> - Thankfully we had enough time to implement this feature. It allows site visitors to be able to find external help via our website.</li>
 </ul>
 
 ### Features Left to Implement
@@ -692,5 +698,6 @@ Video in symptoms.html: https://www.youtube.com/watch?v=TpUAsdZiDuM
 <img src="assets/readmeimages/symptomsscreen.png"><br>
 <img src="assets/readmeimages/quizscreen.png"><br>
 <img src="assets/readmeimages/contactscreen.png"><br>
+<img src="assets/readmeimages/supportscreen.png"><br>
 <img src="assets/readmeimages/404screen.png">
 

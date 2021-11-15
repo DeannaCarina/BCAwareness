@@ -654,8 +654,8 @@ button[type="submit"]{
   z-index: -1;
   object-fit: cover;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: -30%;
+  left: -50%;
   /* overflow: hidden; */
 }
 
@@ -694,6 +694,7 @@ button[type="submit"]{
 
 .support-title{
   font-family: 'satisfy', sans-serif;
+  font-size: x-large;
 }
 
 .support-logo{
