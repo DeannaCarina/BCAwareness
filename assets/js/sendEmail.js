@@ -8,7 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            alert('Your email has been sent.')
+            alert('Your email has been sent.');
         },
         function(error) {
             console.log("FAILED", error);

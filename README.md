@@ -99,6 +99,7 @@ As a new and returning user I want to:
     <li>Have visual aids and obvious calls to action throughout the site to aid in user intuitiveness</li>
     <li>Have up to date and relatable stroies from individuals affected by breast cancer</li>
     <li>Have a pleasant experience when visiting the site and get the facts surrounding breast cancer</li>
+    <li>Have a way to contact the site admin if I need to speak to them</li>
 </ol>   
 
 #### Feasibility vs Importance
@@ -164,9 +165,15 @@ As a new and returning user I want to:
         <td>Out</td>
     </tr>
     <tr>
+        <td>A contact form for users of the site to be able to contact site admin if needed</td>
+        <td>4</td>
+        <td>2</td>
+        <td>In if we have time</td>
+    </tr>
+    <tr>
         <td></td>
-        <td>Average Viability x number of features:<br> 30</td>
-        <td>Sum of Importance:<br> 34</td>
+        <td>Average Viability x number of features:<br> 34</td>
+        <td>Sum of Importance:<br> 36</td>
         <td></td>
     </tr>
 </table>
@@ -214,6 +221,8 @@ We have chosen to carry out a very basic linear method of design for this websit
 <strong>On symptoms.html</strong>: This page will consist of the symptoms to look out for as in indicator for breast cancer. There are still so many people that put off going to the doctor because they don't think their symptoms are anything to worry about. It is our hope that having this information easily accessible it will encourage people to look our for these symptoms and encourage early detection and diagnosis.
 <br>
 <strong>On quiz.html</strong>: This page will be an interactive activity for the user. Everybody learns in different ways, and it's rare for people to learn purely by reading information on a screen or a piece of paper. By having a learning source that is more interactive, we hope to target those that are more kinesthetic learners.
+<br>
+<strong>On contact.html</strong>: This page will be a standard contact form for the user to be able to contact site admin if needed.
 
 ### Skeleton
 
@@ -228,7 +237,9 @@ risks.html<br>
 symptoms.html<br>
 <img src="assets/readmeimages/wireframesymptoms.png" width="700px"><br><br>
 quiz.html<br>
-<img src="assets/readmeimages/wireframequiz.png" width="700px"><br>
+<img src="assets/readmeimages/wireframequiz.png" width="700px"><br><br>
+contact.html<br>
+<img src="assets/readmeimages/contacthtml.png" width="700px"><br>
 
 The wireframes were created during the website's initial desgin process, as such there are small changes between the layout of the wireframes and the final layout/design of the finished website.
 
@@ -331,6 +342,9 @@ The breast checking video came from youtube and can be found <a href="https://ww
     <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
         <ul><li>For the general layout of the website, the navbar and the accordian elements throughout the site</li></ul>
     </li>
+    <li><a href="https://www.emailjs.com/" target="_blank">Email JS</a>
+        <ul><li>For the functionality of the contact form</li></ul>
+    </li>
 </ol><br>  
 
 
@@ -345,6 +359,7 @@ The main features to be implemented in the website were determined in the Strate
     <li><em>A simple quiz for site users to interact with to test their knowledge around breast cancer and it's awareness</em> - </li>
     <li><em>Videos situated at opportune moments throughout the site to help raise awareness of breast cancer</em> - As soon as anyone navigates to the site they are greeted with a quick 60 second video on how to check for breast cancer. There are also background videos in index.html for varying screensizes related to breast cancer awareness.</li>
     <li><em>A fairly gender neutral site in terms of colour scheme to encourage everybody to stay on the site as this topic affects everybody</em> - Please see surface section of UX for explanation on colour scheme and why we chose certain colours.</li>
+    <li><em>A contact form for users to be able to contact site admin if needed</em> - Thankfully we had enough time to implement this feature. It allows site visitors to be able to contact the site admin for any reason at all, whether it be a technical or personal issue that the user may have.</li>
 </ul>
 
 ### Features Left to Implement
@@ -384,7 +399,16 @@ The first section of our testing structure for the website was to look at the fu
             <li>The start button in quiz.html will change colour when the user hovers over it</li>
             <li>All social media and external links in the footer will change colour when the user hovers over them</li>
         </ul>    
-    </li>     
+    </li>  
+    <li>All features to do with the contact form work as they should.
+        <ul>
+            <li>All ihover psuedo-classes work when the user hovers over the different text inputs of the form as well as the submit button</li>
+            <li>The user gets an alert straight away as soon as they submit the form</li>
+            <li>The form isn't able to be submitted unless all fields are completed</li>
+            <li>When the form is submitted, the site admin recieve an email notification and the details of the user that has submitted them</li>
+            <li>When the form is submitted, user will recieve an email stating they should expect a response within 48 hours</li>
+        </ul>    
+    </li>    
 </ul><br>
 
 ### Compatibility
@@ -427,6 +451,9 @@ The third section of our testing structure was to ensure that customer all user 
 
 >Throughout the website we have tried to keep the main theme informative rather than emotional/scare-tactics which is what some cancer awareness websites use. The facts.html, risks.html and symptoms.html are purely factual pages to try and help the user raise their awareness of breast cancer in a neutral, non-biased environment. By having the quiz incorporated into the website, this gives the user a positive and interactive task to carry out while also raising their awareness of breast cancer.<br>
 
+<em>"To be able to have a way to contact site admin if needed"</em><br>
+<img src="assets/readmeimages/form.png" alt="Screenshot of contact form" width="600px"><br>
+>On contact.html there is a user friendly contact form for the user to interact with and use. All functionality works as it should.<br>
 
 ### Code Validation
 
@@ -454,6 +481,9 @@ The below code validation report is from symptoms.html. There were minimal error
 There were minimal errors found on this page. The main 'errors' were the same ones as the errors found in index.html and facts.html which were rectified in the same ways.There were also warnings concerning multiple hypens within comments, however this was left as having comments within code is best practice to make the code more readable and editable in the future.<br>
 <img src="assets/readmeimages/w3cquiz.png" width="600px"><br>
 
+##### CONTACT.HTML
+There were no errors found on this page. The main 'warning' were unnecessary usage of javascript tags, however these cause no issues and it's better to have them and not need them, than need them and not have them, so we have left them in place.<br>
+<img src="assets/readmeimages/w3ccontact.png" width="600px"><br>
 
 #### CSS Code validation
 
@@ -476,6 +506,9 @@ RISKSCRIPT.JS: No errors or warnings were found in the JS validation process.<br
 
 SCRIPT.JS: No errors or warnings were found in the JS validation process.<br>
 <img src="assets/readmeimages/scriptjs.png" width="600px"><br>
+
+sendEmail.JS: A warning was present concerning a missing semicolon, this was placed to rectify all problems.<br>
+<img src="assets/readmeimages/contactscript.png" width="600px"><br>
 
 ### Issues Found During Deployment
 
@@ -658,6 +691,6 @@ Video in symptoms.html: https://www.youtube.com/watch?v=TpUAsdZiDuM
 <img src="assets/readmeimages/risksscreen.png"><br>
 <img src="assets/readmeimages/symptomsscreen.png"><br>
 <img src="assets/readmeimages/quizscreen.png"><br>
+<img src="assets/readmeimages/contactscreen.png"><br>
 <img src="assets/readmeimages/404screen.png">
 
-## References
