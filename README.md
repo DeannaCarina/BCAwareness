@@ -40,14 +40,14 @@ Hackathon Project in partnership with IT Labs. Deadline Monday 15th November 202
 <hr>
 
 ## Introduction
-The Breast Review website covers some educative information on breast cancer awareness. The steps to take in examining your breasts, how often the breasts should be examine, risks factors associated with breast cancers and why early detection can save lives.
+The Breast Review website is educative information resource on breast cancer awareness. The website will have features such as a vieo on the steps to take when examining the breasts, how often the breasts should be examined, risks factors associated with breast cancer and why early detection can save lives.
 <br>
-The World Health Organisation (WHO) Objectives is to reduce global breast cancer mortality by 2.5% per year, thereby averting 2.5 million breast cancer deaths globally between 2020 and 2040. Reducing global breast cancer mortality by 2.5% per year would avert 25% of breast cancer deaths by 2030 and 40% by 2040 among women under 70 years of age. The three pillars toward achieving these objectives are: health promotion for early detection; timely diagnosis; and comprehensive breast cancer management. It is therefore imperative for frequent reviews on the breast for early detection. 
+The World Health Organisation's (WHO) Objective is to reduce global breast cancer mortality by 2.5% per year, thereby averting 2.5 million breast cancer deaths globally between 2020 and 2040. Reducing global breast cancer mortality by 2.5% per year would avert 25% of breast cancer deaths by 2030 and 40% by 2040 among women under 70 years of age. The three pillars toward achieving these objectives are: health promotion for early detection; timely diagnosis; and comprehensive breast cancer management. It is therefore imperative for frequent reviews on the breast for early detection. 
 <br>
-We created this website with HTML and CSS with the use of other technologies.
-There are also contact links at the bottom of all pages with other resourceful links/sites.
+We created this website with HTML, CSS and JavaScript as well as with the use of other technologies.
 
 ### Demo
+A live demo of the website can be found <a href="https://deannacarina.github.io/BCAwareness/" target="_blank">**HERE**</a><br>
 <img src="assets/readmeimages/responsive.png" width="700px">
 
 ## Collaborators
@@ -64,13 +64,12 @@ Thank you Elvira. for being our facilitator. She was there for us to make sure w
 ## UX
 ### Strategy
 
-
 #### Vision
 <em>The Breast Review</em> is an educational tool to increase the knowledge and awareness surrounding Breast Cancer. It will consist of a number of separate pages pertaining to different areas of breast cancer awareness such as the risks, the symptoms and some interesting facts. There will also be an interactive quiz for visitors to the website to encourage the cementing of knowledge through an activity. On the home page there will be a video showing how to check for breast cancer and real life stories of journey's from people who have been affected by breast cancer - both men and women.
 
 Despite breast cancer being one of the most well researched and known-about cancers, there are still a massive amount of breast cancer related deaths that could have been prevented if it were for early detection and education. Our hope for this website is to have a quick, easy and informative resource for anybody who would like to learn more about how to detect breast cancers.
 
-The graphic below shows all of the potential pages and the content within that we could add to this website, some of these will be added and some won't - this will be talked about more in-depth in the FEasibility/Importance section of the README.<br>
+The graphic below shows all of the potential pages and the content within that we could add to this website, some of these will be added and some won't - this will be talked about more in-depth in the Feasibility/Importance section of the README.<br>
 <img src="assets/readmeimages/pageplan.png" width="600px">
 
 #### Aims
@@ -87,8 +86,8 @@ The graphic below shows all of the potential pages and the content within that w
 
 #### Target Audience
 <ol>
-    <ul>Everybody</ul>
-    <ul>Although the majority of those who develop breast cancer are in the female over 50 demographic, the disease itself affects everybody, whether that's someone we know that has suffered from it, someone that has been told they're more at risk, or someone that has just had thoughts surrounding it. This web application is for all of those people and everyone in between. Cancer doesn't discriminate, and neither do we.</ul>
+    <li>Everybody</li>
+    <li>Although the majority of those who develop breast cancer are in the female over 50 demographic, the disease itself affects everybody, whether that's someone we know that has suffered from it, someone that has been told they're more at risk, or someone that has just had thoughts surrounding it. This web application is for all of those people and everyone in between. Cancer doesn't discriminate, and neither do we.</li>
 </ol>
 
 #### User Stories
@@ -243,7 +242,7 @@ quiz.html<br>
 <img src="assets/readmeimages/wireframequiz.png" width="700px"><br><br>
 contact.html<br>
 <img src="assets/readmeimages/contacthtml.png" width="700px"><br><br>
-contact.html<br>
+support.html<br>
 <img src="assets/readmeimages/wireframesupport.png" width="700px"><br>
 
 The wireframes were created during the website's initial desgin process, as such there are small changes between the layout of the wireframes and the final layout/design of the finished website.
@@ -696,7 +695,15 @@ Breast checking video in index.html: https://www.pexels.com/video/a-person-holdi
 
 Video in symptoms.html: https://www.youtube.com/watch?v=TpUAsdZiDuM
 
+Background video in support.html: https://www.pexels.com/video/young-woman-juggling-5702126/
+
+
 ### Acknowledgements
+
+To our project facilitator - thank you for guiding us and giving suggestions of how to improve our project.
+
+To Linda - thank you for sharing your story with us and allowing us to use your experiences in the hope of helping others.
+
 
 ## Screenshots
 <img src="assets/readmeimages/indexscreen.png"><br>
