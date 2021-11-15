@@ -321,6 +321,10 @@ button[type="submit"]{
   display: none;
 }
 
+.hidden {
+  display: none;
+}
+
 /* -------------------------- QUIZ -------------------------- */
 
 :root {
