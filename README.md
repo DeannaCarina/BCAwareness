@@ -491,6 +491,12 @@ There were minimal errors found on this page. The main 'errors' were the same on
 There were no errors found on this page. The main 'warning' were unnecessary usage of javascript tags, however these cause no issues and it's better to have them and not need them, than need them and not have them, so we have left them in place.<br>
 <img src="assets/readmeimages/w3ccontact.png" width="600px"><br>
 
+##### SUPPORT.HTML
+There were no errors found on this page. The main 'warnings' were from overuse of dashes in HTML comments, however these don't cause any problems and make the code readability better for fellow coders, so we have chosen to leave them in place.<br>
+<img src="assets/readmeimages/w3csupport.png" width="600px"><br>
+
+
+
 #### CSS Code validation
 
 No errors or warnings were found in the CSS validation process.<br>
@@ -524,7 +530,8 @@ No issues were found during deployment. The website is hosted through GitHub pag
 
 All web pages were run through the wave accessibility tool, the only error was from the logo not having an alt attribute in quiz.html, this was rectified before project submission deadline:
 
-<img src="assets/readmeimages/access.png" width="100%"><br>
+<img src="assets/readmeimages/access.png" width="600px"><br>
+<img src="assets/readmeimages/access2.png" width="230px"><br>
 
 
 ### Performance Testing
