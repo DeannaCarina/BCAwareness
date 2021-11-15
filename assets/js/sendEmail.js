@@ -6,13 +6,17 @@ function sendMail(contactForm) {
         "form_message": contactForm.message.value
     })
     .then(
+        // If the message is successfully sent 
         function(response) {
             console.log("SUCCESS", response);
             alert('Your email has been sent.');
         },
+        // If the message does not send
         function(error) {
             console.log("FAILED", error);
         }
     );
-    return false;
+
+    document.getElementById('fillForm').reset(); // Reset form once the message has been sent
+    return false; // This is to prevent the page from refreshing when you submit your form 
 }

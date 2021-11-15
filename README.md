@@ -628,6 +628,12 @@ Information contained within the risks.html page has been taken from the followi
 
 * [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/prevention.htm)
 
+### SYMPTOMS:
+
+Information contained within the risks.html page has been taken from the following source:
+
+* [Centers for Desease and Control and prevention](https://www.cdc.gov/cancer/breast/basic_info/symptoms.htm)
+
 ### WHY IS THE WEB APPLICATION NEEDED?
 There is always a continuing need to raise awarenes of breast cancer. According to <a href="https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/breast-cancer">Cancer Research UK</a> a massive 23% of all breast cancers are preventable. The only way to reduce this number is by raising awareness by any means possible. A diagnosis of any type of cancer is one diagnosis too many, and we hope that in some small way our web-app can help reduce these numbers. If one person has learnt one new thing from our website - we've achieved what we set out to.
 

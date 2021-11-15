@@ -1,4 +1,4 @@
-
+// Slow down background video
 var smallvid = document.getElementById("small-video");
 smallvid.playbackRate = 0.7; 
 
