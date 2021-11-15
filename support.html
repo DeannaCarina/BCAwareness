@@ -15,17 +15,9 @@
     </script>
     <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_h9mIVtsQPLUYtn8QML3e9");
-        })();
-    </script>
-    <title>The Breast Review</title>
 </head>
 
-<body class="contact-body">
+<body>
     <!-------------------------------------- HEADER -------------------------------------->
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg nav-blur">
@@ -57,7 +49,10 @@
                             <a class="nav-link" href="quiz.html">Quiz</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            <a class="nav-link"href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="support.html">Support</a>
                         </li>
                     </ul>
                 </div>
@@ -65,35 +60,7 @@
         </nav>
     </header>
     <!-------------------------------------- MAIN -------------------------------------->
-    <section class="container-fluid contact-section">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <div class="contact-headers blur">
-                    <h3 class="contact-heading uppercase text-center"><strong>Need to contact us?</strong></h3>
-                    <h5 class="uppercase text-center">Please use the form below.</h5>
-                </div>
-                <div class="center-form">
-                    <form id="fillForm" class="contact-form" onsubmit="return sendMail(this);" method="POST">
-                        <label class="hidden-label" for="name" aria-label="name">name</label>
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
-                        <label class="hidden-label" for="email" aria-label="email">email</label>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
-                        <label class="hidden-label" for="subject" aria-label="subject">subject</label>
-                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required/>
-                        <label class="hidden-label" for="message" aria-label="message">message</label>
-                        <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary" id="contact-button">Send 
-                                    <i class="fas fa-paper-plane"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <!-------------------------------------- FOOTER -------------------------------------->
 
