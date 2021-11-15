@@ -84,6 +84,10 @@ body {
   border-radius: 15px 15px 0 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
@@ -204,6 +208,20 @@ footer > span > a > i {
   padding: 3px;
 }
 
+.ol-padding {
+  text-align: left;
+  padding: 5% 25% 0 40%;
+}
+
+.ol-padding li {
+  padding-left: 20px;
+}
+
+.breast-cross-section img {
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
 /* -------------------------- MARGINS -------------------------- */
 
 .ml-auto {
@@ -305,6 +323,10 @@ button[type="submit"]{
     --hue-neutral: 305;
 }
 
+.quiz-div {
+  height: 100vh;
+}
+
 .quiz-div, .quiz-div::before, .quiz-div::after {
     box-sizing: border-box;
     padding-top: 80px;
@@ -333,7 +355,7 @@ button[type="submit"]{
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin: 140px 140px 300px;
+    margin-bottom: 45%;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -397,6 +419,7 @@ button[type="submit"]{
     .quiz-container {
         max-width: 99vw;
         margin: 80px 0;
+        margin-bottom: 50%;
     }
 }
 
