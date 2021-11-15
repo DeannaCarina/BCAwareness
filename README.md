@@ -576,6 +576,8 @@ The information contained within the facts.html page has been taken from the fol
 
 * [8 Interesting Facts About Breast Cancer on roche.com](https://www.roche.com/research_and_development/what_we_are_working_on/oncology/8-facts-about-breast-cancer.htm#fact_8)
 
+* [What is breast cancer](https://www.cdc.gov/cancer/breast/basic_info/what-is-breast-cancer.htm)
+
 * [Statistics about breast cancer from the World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/breast-cancer)
 
 * [More facts about breast cancer from breastcancer.org](https://www.breastcancer.org/symptoms/understand_bc/myths-facts)
