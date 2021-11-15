@@ -66,6 +66,24 @@ body {
   background-color: rgb(190, 153, 168);
 }
 
+.blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.logo-font {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 3rem;
+}
+
+.round-border {
+  border-radius: 20px;
+}
+
+.round-border-top {
+  border-radius: 15px 15px 0 0;
+}
+
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
@@ -267,7 +285,7 @@ button[type="submit"]{
 }
 
 .contact-form{
-  background-color: rgb(158, 136, 160);
+  background-color: rgba(89, 89, 114, 0.6);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 4px;
@@ -279,10 +297,6 @@ button[type="submit"]{
 .form-control:active,
 .form-control:focus{
   background-color: rgb(255, 241, 254);
-}
-.contact-footer{
-  position: fixed;
-  bottom: 0;
 }
 
 /* -------------------------- QUIZ -------------------------- */
@@ -319,7 +333,7 @@ button[type="submit"]{
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin: 140px;
+    margin: 140px 140px 300px;
     box-shadow: 0 0 10px 2px;
 }
 
