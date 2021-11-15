@@ -299,6 +299,10 @@ button[type="submit"]{
   background-color: rgb(255, 241, 254);
 }
 
+.hidden-label{
+  display: none;
+}
+
 /* -------------------------- QUIZ -------------------------- */
 
 :root {
