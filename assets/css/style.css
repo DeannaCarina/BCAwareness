@@ -66,6 +66,28 @@ body {
   background-color: rgb(190, 153, 168);
 }
 
+.blur {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.logo-font {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 3rem;
+}
+
+.round-border {
+  border-radius: 20px;
+}
+
+.round-border-top {
+  border-radius: 15px 15px 0 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
 /* ------HERO IMAGE FACTS.html------ */
 
 .hero-image-facts {
@@ -186,6 +208,20 @@ footer > span > a > i {
   padding: 3px;
 }
 
+.ol-padding {
+  text-align: left;
+  padding: 5% 25% 0 40%;
+}
+
+.ol-padding li {
+  padding-left: 20px;
+}
+
+.breast-cross-section img {
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
 /* -------------------------- MARGINS -------------------------- */
 
 .ml-auto {
@@ -267,7 +303,7 @@ button[type="submit"]{
 }
 
 .contact-form{
-  background-color: rgb(158, 136, 160);
+  background-color: rgba(89, 89, 114, 0.6);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 4px;
@@ -280,15 +316,19 @@ button[type="submit"]{
 .form-control:focus{
   background-color: rgb(255, 241, 254);
 }
-.contact-footer{
-  position: fixed;
-  bottom: 0;
+
+.hidden-label{
+  display: none;
 }
 
 /* -------------------------- QUIZ -------------------------- */
 
 :root {
     --hue-neutral: 305;
+}
+
+.quiz-div {
+  height: 100vh;
 }
 
 .quiz-div, .quiz-div::before, .quiz-div::after {
@@ -319,7 +359,7 @@ button[type="submit"]{
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin: 140px;
+    margin-bottom: 45%;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -383,6 +423,7 @@ button[type="submit"]{
     .quiz-container {
         max-width: 99vw;
         margin: 80px 0;
+        margin-bottom: 50%;
     }
 }
 
@@ -1042,6 +1083,5 @@ button[type="submit"]{
 .text-left {
   text-align: left!important;
 }
-
 
 

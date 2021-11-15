@@ -15,23 +15,24 @@
     </script>
     <script src="https://kit.fontawesome.com/f73762c6c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
-    (function(){
-        emailjs.init("user_h9mIVtsQPLUYtn8QML3e9");
-    })();
-</script>
+        (function () {
+            emailjs.init("user_h9mIVtsQPLUYtn8QML3e9");
+        })();
+    </script>
     <title>The Breast Review</title>
 </head>
 
 <body class="contact-body">
+    <!-------------------------------------- HEADER -------------------------------------->
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg nav-blur">
 
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50" width="60" alt="The Breast Review logo"> The Breast Review</a>
+                <a class="navbar-brand" href="index.html"><img src="assets/readmeimages/logo.png" height="50" width="60"
+                        alt="The Breast Review logo"> The Breast Review</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -63,23 +64,29 @@
             </div>
         </nav>
     </header>
-
+    <!-------------------------------------- MAIN -------------------------------------->
     <section class="container-fluid contact-section">
         <div class="row bg-color-contact">
             <div class="col">
-                <div class="contact-headers">
-                <h3 class="contact-heading uppercase text-center">Need to contact us?</h3>
-                <h5 class="uppercase text-center">Please use the form below.</h5>
+                <div class="contact-headers blur">
+                    <h3 class="contact-heading uppercase text-center"><strong>Need to contact us?</strong></h3>
+                    <h5 class="uppercase text-center">Please use the form below.</h5>
                 </div>
                 <div class="center-form">
-                    <form class="contact-form" onsubmit="return sendMail(this);">
+                    <form class="contact-form" onsubmit="return sendMail(this);" method="POST">
+                        <label class="hidden-label" for="name" aria-label="name">name</label>
                         <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
+                        <label class="hidden-label" for="email" aria-label="email">email</label>
                         <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" required/>
+                        <label class="hidden-label" for="subject" aria-label="subject">subject</label>
                         <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required/>
+                        <label class="hidden-label" for="message" aria-label="message">message</label>
                         <textarea rows="10" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary" id="contact-button">Send <i class="fas fa-paper-plane"></i></button>
+                                <button type="submit" class="btn btn-secondary" id="contact-button">Send 
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
                             </div>
                         </div>
                     </form>
@@ -88,7 +95,7 @@
         </div>
     </section>
 
-
+    <!-------------------------------------- FOOTER -------------------------------------->
 
     <footer class="contact-footer">
         <div class="row bg-purple">
@@ -106,10 +113,14 @@
             </div>
             <div class="col-12 col-lg-3 text-center">
                 <span class="footer-span" id="footer-socials">
-                    <a href="https://facebook.com" target="_blank" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com" target="_blank" aria-label="twitter"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://youtube.com" target="_blank" aria-label="youtube"><i class="fab fa-youtube-square"></i></a>
-                    <a href="https://instagram.com" target="_blank" aria-label="instagram"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://facebook.com" target="_blank" aria-label="facebook"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="twitter"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a href="https://youtube.com" target="_blank" aria-label="youtube"><i
+                            class="fab fa-youtube-square"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="instagram"><i
+                            class="fab fa-instagram-square"></i></a>
                 </span>
             </div>
             <div class="col-12 col-lg-3 text-center">
@@ -125,10 +136,10 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="assets/js/sendEmail.js"></script>
 </body>
 
