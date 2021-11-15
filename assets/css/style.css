@@ -215,6 +215,76 @@ footer > span > a {
     margin: 0 30px;
 }
 
+
+/*----------------Contact-----------*/
+.contact-body{
+  background: url(../images/contactbg.jpeg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-section{
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+.contact-heading{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-headers{
+  background-color: rgba(255, 255, 255, 0.699);
+  width: 400px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 1px;
+  border-radius: 20px;
+}
+.center-form{
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+button[type="submit"]{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(200, 200, 200);
+  color: rgb(79, 77, 112);
+}
+
+.form-control{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.contact-form{
+  background-color: rgb(158, 136, 160);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus{
+  background-color: rgb(255, 241, 254);
+}
+.contact-footer{
+  position: fixed;
+  bottom: 0;
+}
+
 /* -------------------------- QUIZ -------------------------- */
 
 :root {
@@ -403,7 +473,7 @@ footer > span > a {
   
 }
 
-.col{
+.story-col{
   margin: 50px;
   background-color: rgba(255, 255, 255, 0.658);
 }
@@ -606,7 +676,26 @@ footer > span > a {
   }
 }
 
+@media screen and (max-width: 1000px){
+  .center-form{
+      max-width: 70%;
+  }
+}
 
+@media screen and (max-width: 600px){
+  .center-form{
+      max-width: 90%;
+  }
+  .contact-headers{
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 340px){
+  button[type="submit"]{
+      width: 90%;
+  }
+}
 
 
 
