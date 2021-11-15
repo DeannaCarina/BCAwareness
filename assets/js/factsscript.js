@@ -1,6 +1,7 @@
 var acc = document.getElementsByClassName("accordion");
 var i;
 
+// On click: open 'accordion' to show extra info and add class 'active'
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");

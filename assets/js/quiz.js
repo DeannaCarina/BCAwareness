@@ -5,13 +5,14 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 let shuffledQuestions, currentQuestionIndex;
 
+// Trigger respective function once user presses 'start' or 'next' button 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
 });
 
-
+// On game start fill the container with random question and respective answers
 function startGame () {
     console.log('Started');
     startButton.classList.add('hide');
@@ -21,13 +22,13 @@ function startGame () {
     setNextQuestion();
 }
 
-
+// Clear container and pick another question with different index to avoid repetition 
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
-
+// Show new question and respective answers in form of buttons 
 function showQuestion(question) {
     questionElement.innerText = question.question;
     question.answers.forEach(answer => {
@@ -42,7 +43,7 @@ function showQuestion(question) {
     });
 }
 
-
+// Clear quiz container from current question and respective asnwers
 function resetState() {
     clearStatusClass(document.body);
     nextButton.classList.add('hide');
@@ -51,7 +52,7 @@ function resetState() {
     }
 }
 
-
+// Once the user selects an answer show which was correct/wrong with the appropriate color
 function selectAnswer(e) {
     const selectedButton = e.target;
     const correct = selectedButton.dataset.correct;
@@ -59,20 +60,21 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
     });
+    // If there are questions left allow the user to continue the quiz
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
     } else {
 
+      // If there are NOT new questions allow the user to restart the quiz
       resetState();
       startButton.innerText = 'Restart';
       startButton.classList.remove('hide');
       // questionElement.innerText = 'For more information visit our other sections!'
 
   }
-    
-
 }
 
+// Show green / red color based on which answer was correct / wrong
 function setStatusClass(element, correct) {
     clearStatusClass(element);
     if (correct) {
@@ -82,14 +84,14 @@ function setStatusClass(element, correct) {
     }
 }
 
-
+// remove green / red color from answers once the users moves to next question
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
 
 
-// list of questions
+// List of questions
 const questions = [
     {
         question: 'You can get breast cancer even if it does not run in your family',
